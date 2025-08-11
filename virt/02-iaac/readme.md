@@ -9,6 +9,7 @@
 Подключение по SSH с ключом:
 
 <img width="539" height="70" alt="w2 1" src="https://github.com/user-attachments/assets/e563ad60-e22c-4686-a999-0d717f4e0ca9" />
+
 Не удалось решить проблему подключения по SSH к ВМ, собранной vagrant. При возможности попробую сделать на другом ПК или без вложенной виртуализации.
 
 <img width="717" height="594" alt="w2 2" src="https://github.com/user-attachments/assets/0339ab16-1f7a-4632-88b3-6e4aea12e06a" />
