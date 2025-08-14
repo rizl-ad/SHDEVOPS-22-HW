@@ -9,7 +9,7 @@ https://hub.docker.com/repository/docker/rizl/custom-nginx/general
 ## Задача 3
 По п.3: для подключения к стандартному потоку ввода/вывода/ошибок контейнера используется команда ```docker attach```, при нажатии сочетания клавиш ```Ctrl+c``` контейнеру отправляется сигнал ```SIGINT```, останавливающий контейнер.
 <img width="1104" height="819" alt="image" src="https://github.com/user-attachments/assets/e4e0af93-e65c-4b50-b6f0-f2b1c1a371aa" />
-В образе nginx указаны устаревшие репозитории, поэтому обновляем ссыдку на репозиторий:
+В образе nginx указаны устаревшие репозитории, поэтому обновляем ссылку на репозиторий:
 <img width="1088" height="817" alt="image" src="https://github.com/user-attachments/assets/5dd63bf2-9206-4b8a-9106-0822fac39c78" />
 <img width="1413" height="706" alt="image" src="https://github.com/user-attachments/assets/79bac7cb-5434-4b5a-9059-277fc10991a5" />
 
