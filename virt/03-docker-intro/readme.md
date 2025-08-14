@@ -19,6 +19,7 @@ https://hub.docker.com/repository/docker/rizl/custom-nginx/general
 Доп задание (11): метод смены порта без создания нового контейнера такой себе - подходит если на хосте запущен только один контейнер.
 <img width="1260" height="719" alt="image" src="https://github.com/user-attachments/assets/be87c0f3-9afd-4cbd-b624-3e0e4c29235f" />
 
+Для удаления запущенного контейнера необходимо указать опцию -f/--forced
 <img width="612" height="64" alt="image" src="https://github.com/user-attachments/assets/cf0d80f3-a20e-4081-9c16-50c3214f54a2" />
 
 
