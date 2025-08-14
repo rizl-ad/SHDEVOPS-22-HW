@@ -35,11 +35,12 @@ https://hub.docker.com/repository/docker/rizl/custom-nginx/general
 
 ## Задача 5
 
-<img width="1507" height="369" alt="image" src="https://github.com/user-attachments/assets/69cb3ed6-21a5-4912-939f-3ba56897a2ec" />
+<img width="1295" height="368" alt="image" src="https://github.com/user-attachments/assets/304926b6-87df-4786-8e73-3e0d7a53817d" />
 
 Файл ```compose.yaml``` является предпочтительным, ```docker-compose.yml``` поддерживается для обратной совместимости с более ранними версиями.
 
-<img width="1507" height="306" alt="image" src="https://github.com/user-attachments/assets/e93b3322-5d17-49dd-8bb4-a049e0f1bbe1" />
+<img width="1298" height="306" alt="image" src="https://github.com/user-attachments/assets/c2e7b98d-f08e-45e9-a89b-960e3159e37e" />
+
 
 
 
