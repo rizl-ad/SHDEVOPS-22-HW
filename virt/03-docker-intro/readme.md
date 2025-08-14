@@ -14,6 +14,7 @@ https://hub.docker.com/repository/docker/rizl/custom-nginx/general
 <img width="1413" height="706" alt="image" src="https://github.com/user-attachments/assets/79bac7cb-5434-4b5a-9059-277fc10991a5" />
 
 По п.10: в контейнере изменили порт прослушивания nginx c 80 на 81. Проброс порта при сборке контейнера назначили с 8080 хостовой ОС на 80 контейнера. Соответственно, 80-ый порт контейнера ничем не слушается и попытка подключения на 8080 хостовой ОС завершается неудачей.
+
 <img width="762" height="338" alt="image" src="https://github.com/user-attachments/assets/edc4af0e-ace5-475b-b288-d5d97e16a51d" />
 
 Доп задание (11): метод смены порта без создания нового контейнера такой себе - подходит если на хосте запущен только один контейнер.
