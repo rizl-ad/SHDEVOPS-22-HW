@@ -41,7 +41,12 @@ https://hub.docker.com/repository/docker/rizl/custom-nginx/general
 
 <img width="1298" height="306" alt="image" src="https://github.com/user-attachments/assets/c2e7b98d-f08e-45e9-a89b-960e3159e37e" />
 
+<img width="798" height="336" alt="w4 5_2" src="https://github.com/user-attachments/assets/44b2d645-0696-42e0-8f3a-71d08ee0256e" />
 
+<img width="793" height="1001" alt="w4 5_5" src="https://github.com/user-attachments/assets/f567b85c-a2a6-461f-8040-ddea4719fff7" />
 
+<img width="1388" height="192" alt="w4 5_7" src="https://github.com/user-attachments/assets/d66fb657-d4cc-4fa3-8861-02bd92680374" />
 
+Сообщение «Found orphan containers…» указывает на то, что контейнер task5-portainer-1 запущен или существует в проекте с тем же именем, что и запускаемый проект, но не определенные текущем docker-compose.yml файле
 
+<img width="1386" height="419" alt="w4 5_7" src="https://github.com/user-attachments/assets/c85ab2a0-8c27-47c9-8483-9169616be159" />
