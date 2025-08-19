@@ -30,6 +30,7 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 ### п.3
 
 БД запущена в контейнере, пароль от root MySQL и файл инициализации БД переданы при запуске контейнера:
+
 `.env`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-1.3/.env
 
 `init.sql`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-1.3/init.sql
