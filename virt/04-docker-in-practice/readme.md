@@ -7,6 +7,7 @@
 ## Задача 1
 ### п. 1, 2
 `Dockerfile.python`: https://github.com/rizl-ad/shvirtd-example-python/blob/main/Dockerfile.python
+
 `.dockerignore`: https://github.com/rizl-ad/shvirtd-example-python/blob/main/.dockerignore
 
 Содержимое каталока проекта на момент наполнения `.dockerignore`:
@@ -22,6 +23,7 @@
 ### п.3
 БД запущена в контейнере, пароль от root MySQL и файл инициализации БД переданы при запуске контейнера:
 `.env`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-1.3/.env
+
 `init.sql`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-1.3/init.sql
 
 <img width="837" height="357" alt="w1_z" src="https://github.com/user-attachments/assets/8f78772e-a502-4ffd-8808-c452baf8ea3f" />
