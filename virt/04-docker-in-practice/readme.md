@@ -49,7 +49,7 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 
 ## Задача 2
 
-<img width="667" height="700" alt="t2_1" src="https://github.com/user-attachments/assets/8371fcf5-2358-4e98-b8da-9649977d300f" />
+<img width="492" height="700" alt="t2_1" src="https://github.com/user-attachments/assets/c8e15568-d8d0-452f-b82a-00337a4beb34" />
 
 ## Задача 3
 
