@@ -45,7 +45,7 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 
 `main.ry` с переменной названия таблицы: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-1.4/main.py
 
-<img width="818" height="599" alt="w1_z_3" src="https://github.com/user-attachments/assets/f16cf757-5500-4836-92eb-7156c16ed850" />
+<img width="818" height="599" alt="w1_z_3" src="https://github.com/user-attachments/assets/f528a52f-6648-4d12-86ff-c1c91b59cfcf" />
 
 ## Задача 2
 
