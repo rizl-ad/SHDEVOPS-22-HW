@@ -74,6 +74,7 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 В `docker logs`: Ошибка при подключении к БД или создании таблицы: 2003 (HY000): Can't connect to MySQL server on 'db:3306' (111)  
 При этом если первый раз пробовать подключиться из консоли web MySQL-клиентом, ошибки нет.
 
+Собственно, результат:  
 <img width="487" height="423" alt="t3" src="https://github.com/user-attachments/assets/d217f085-f047-494b-ba81-d04cdcbf766e" />
 
 Вопрос по проблеме задан на страничке ДЗ.  
