@@ -69,6 +69,8 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 3. `init.sql` - создан в целях создания БД, и пользователя с необходимыми параметрами при начальной инициализации MySQL.
 4. `my.cnf` - создан для конфигурирования mysqld - для подключения плагина mysql_native_password.
 
+Изменеия в форке: https://github.com/rizl-ad/shvirtd-example-python/tree/main
+
 И еще: приложение срабатывает без ошибки только после перезапуска контейнера web. С первого раза всегда ошибка.  
 В консоли хоста: {"error":"Ошибка при работе с базой данных: 1146 (42S02): Table 'virtd.requests' doesn't exist"}  
 В `docker logs`: Ошибка при подключении к БД или создании таблицы: 2003 (HY000): Can't connect to MySQL server on 'db:3306' (111)  
