@@ -82,7 +82,9 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 Вопрос по проблеме задан на страничке ДЗ.  
 Ну и дублирую: подскажите как решить вопрос с SSL у MySQL или что я делаю не так?
 
-## Задача 4  
+## Задача 4
+
+Fork: https://github.com/rizl-ad/shvirtd-example-python
 
 <img width="642" height="573" alt="t4_1" src="https://github.com/user-attachments/assets/2894f5ee-53b0-4f75-9944-4594c460ddc1" />
 
