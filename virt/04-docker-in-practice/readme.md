@@ -84,7 +84,7 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 
 ## Задача 4
 
-Fork: https://github.com/rizl-ad/shvirtd-example-python
+bash-скрипт в форке: https://github.com/rizl-ad/shvirtd-example-python/blob/main/github_fork_clone.sh
 
 <img width="642" height="573" alt="t4_1" src="https://github.com/user-attachments/assets/2894f5ee-53b0-4f75-9944-4594c460ddc1" />
 
