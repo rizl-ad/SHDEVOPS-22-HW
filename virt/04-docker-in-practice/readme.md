@@ -54,9 +54,10 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 ## Задача 3
 
 
+
 ## Задача 4
 
 
 ## Задача 5
 
-
+## Задача 6
