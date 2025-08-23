@@ -56,10 +56,12 @@ Fork: https://github.com/rizl-ad/shvirtd-example-python/tree/main
 Задачу не удалось решить в рамках существующих условий. Причиной требуемых изменений стал SSL на сервере MySQL.
 
 После сборки и запуска проекта, приложению не удавалось подключиться к БД с ошибкой:
-{"error":"Ошибка при работе с базой данных: 1146 (42S02): Table 'virtd.requests' doesn't exist"}
+
+`{"error":"Ошибка при работе с базой данных: 1146 (42S02): Table 'virtd.requests' doesn't exist"}`
 
 При попытке подключиться из консоли web на db получил:
-ERROR 2026 (HY000): TLS/SSL error: self-signed certificate in certificate chain
+
+`ERROR 2026 (HY000): TLS/SSL error: self-signed certificate in certificate chain`
 
 Дальше я почти 3 дня (с "кровью", нервами и неприлично большими затратами времени) с помощью гугла пытался решить эту и прочие вытекающие проблемы различными способами (отключение SSL на сервере MySQL, подсовывание сертов и кл, отключение SSL на клиенте) - безрезультатно.
  
