@@ -90,4 +90,10 @@ bash-скрипт в форке: https://github.com/rizl-ad/shvirtd-example-pyth
 
 ## Задача 5
 
+Скрипт: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-5/sqldump.sh
+
+<img width="430" height="151" alt="t5_1" src="https://github.com/user-attachments/assets/d3d415ef-f6b5-4ec3-a94b-22dd9c34b801" />
+
 ## Задача 6
+
+## Задача 7
