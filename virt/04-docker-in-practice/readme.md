@@ -97,4 +97,12 @@ sql-скрипт: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-do
 
 ## Задача 6
 
+<img width="721" height="313" alt="t6_2" src="https://github.com/user-attachments/assets/068e7865-44d3-440b-afaf-4542255251a0" />
+
+<img width="600" height="572" alt="t6_1" src="https://github.com/user-attachments/assets/d06d4b80-a956-4073-ad2e-dd4472b26505" />
+
+## Задача 6.1
+
+## Задача 6.2
+
 ## Задача 7
