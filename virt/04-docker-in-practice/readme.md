@@ -103,6 +103,8 @@ sql-скрипт: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-do
 
 ## Задача 6.1
 
+<img width="669" height="151" alt="t6 1_1" src="https://github.com/user-attachments/assets/9fe887be-2631-4d70-b0a4-46ddc4ce054d" />
+
 ## Задача 6.2
 
 ## Задача 7
