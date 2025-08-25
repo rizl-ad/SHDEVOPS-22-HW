@@ -107,4 +107,8 @@ sql-скрипт: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-do
 
 ## Задача 6.2
 
+Dockerfile: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/virt/04-docker-in-practice/task-6.2/Dockerfile
+
+<img width="547" height="193" alt="t6 2_1" src="https://github.com/user-attachments/assets/55e97504-360c-4002-8134-000fb60e3ae6" />
+
 ## Задача 7
