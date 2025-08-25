@@ -1,0 +1,72 @@
+
+# MIT License
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+version: '3.8'
+
+include:
+  - proxy.yaml
+
+services:
+
+  web:
+    #image: cr.yandex/crptsj5gjb8e158fju81/python_w5_yc:3.12-slim 
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    image: python_w5_t3:3.12-slim
+    container_name: web_w5_t3
+    restart: on-failure
+    environment:
+      DB_HOST: db
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_DATABASE}
+    #volumes:
+    #  - ./crd_data/ca.pem:/app/ca.pem
+    #  - ./crd_data/client-cert.pem:/app/client-cert.pem
+    #  - ./crd_data/client-key.pem:/app/client-key.pem
+    #  - ./crd_data:/app/cert
+    networks:
+      backend:
+        ipv4_address: 172.20.0.5
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8
+    container_name: db_w5_t3
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:rw
+      - ./my.cnf:/etc/my.cnf:rw
+    #  - ./crd_data:/var/lib/mysql:rw
+    networks:
+      backend:
+        ipv4_address: 172.20.0.10
+
+networks:
+  backend:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.20.0.0/24
