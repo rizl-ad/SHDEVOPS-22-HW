@@ -5,6 +5,6 @@
 
 ## Задача 2
 
-
+<img width="639" height="420" alt="t2_1" src="https://github.com/user-attachments/assets/0b6646ec-539c-4a87-8f31-db8102e43143" />
 
 ## Задача 3
