@@ -12,6 +12,7 @@
 
 ### п. 3
 "result": "ipBtAJRPCQn85hTJ"
+
 <img width="364" height="213" alt="t1_p3" src="https://github.com/user-attachments/assets/8c0dbf70-b6cf-4f0c-bf4d-6eec2e44dcf6" />
 
 ## Задача 2
