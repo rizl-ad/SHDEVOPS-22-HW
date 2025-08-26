@@ -24,9 +24,23 @@
 
 <img width="547" height="37" alt="t1_p5" src="https://github.com/user-attachments/assets/330e5826-4e28-42bd-8e6a-e44d98b5ac6c" />
 
+### п. 6
+
+Применение ключа `-auto-approve` опасно отсутствием контроля применяемых изменений, нужно быть твердо уверенным в корректности кода.  
+Тем не менее данный ключ полезен при построении полностью автоматизированных процессов CI/CD, где нужно исключить участие человека.
+
+<img width="501" height="38" alt="t1_p6" src="https://github.com/user-attachments/assets/a23e5176-18a6-4322-b7c9-6db6c8b5dfe0" />
+
+### п. 7
+
+<img width="273" height="120" alt="t1_p7" src="https://github.com/user-attachments/assets/1d13d155-be4f-441f-97ef-f8ed98c8dd67" />
+
+### п. 8
+
+`keep_locally = true` - строка кода в ресурсе "docker_image.nginx" указывает на необходимость сохранения локальной копии образа.  
+Цитата из документации: "`keep_locally` (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation."
 
 ## Задача 2
-
 
 
 ## Задача 3
