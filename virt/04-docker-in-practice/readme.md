@@ -1,4 +1,4 @@
-# Рещение ДЗ к занятию 5 «Практическое применение Docker»
+# Решение ДЗ к занятию 5 «Практическое применение Docker»
 ## Задача 0
 
 <img width="699" height="330" alt="w0" src="https://github.com/user-attachments/assets/e1bb4c19-cbbb-4d12-8850-1ebd652ba5eb" />
