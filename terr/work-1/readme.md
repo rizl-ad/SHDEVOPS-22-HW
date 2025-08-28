@@ -1,4 +1,4 @@
-# Рещение ДЗ к занятию «Введение в Terraform»
+# Решение ДЗ к занятию «Введение в Terraform»
 
 <img width="226" height="40" alt="t0_1" src="https://github.com/user-attachments/assets/f8337ed2-be90-4812-b006-9ffde476fd89" />
 
