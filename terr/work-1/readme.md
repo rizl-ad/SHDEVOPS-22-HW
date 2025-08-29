@@ -60,3 +60,16 @@
 
 ## Задача 3
 
+Запуск проекта через OpenTofu отличался лишь названиием root-модуля (`.tofurc`) и зеркалом registry.
+
+Запуск первого проекта (создание ВМ):  
+<img width="589" height="397" alt="t3_1" src="https://github.com/user-attachments/assets/69720347-140d-4421-8dd0-15153fadc4b8" />
+
+Инициализация и запуск второго проекта (запуск конткйнера через remote ssh context):  
+<img width="645" height="515" alt="t3_2" src="https://github.com/user-attachments/assets/b2505eb9-1ddb-42de-9189-3b02650fa290" />
+
+<img width="584" height="371" alt="t3_3" src="https://github.com/user-attachments/assets/275c90e7-353b-4987-b056-1b81fe5728ae" />
+
+Результат:  
+<img width="532" height="176" alt="t3_4" src="https://github.com/user-attachments/assets/517eb6a7-2d3b-4338-a9f9-7bbd96f83062" />
+
