@@ -62,6 +62,8 @@
 
 Запуск проекта через OpenTofu отличался лишь названиием root-модуля (`.tofurc`) и зеркалом registry.
 
+<img width="264" height="49" alt="t3_0" src="https://github.com/user-attachments/assets/21a561d5-9f36-416f-82b8-02637c447c89" />
+
 Запуск первого проекта (создание ВМ):  
 <img width="589" height="397" alt="t3_1" src="https://github.com/user-attachments/assets/69720347-140d-4421-8dd0-15153fadc4b8" />
 
