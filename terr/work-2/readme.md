@@ -18,6 +18,8 @@
 
 ## Задача 2
 
+<img width="449" height="377" alt="t1_1" src="https://github.com/user-attachments/assets/b8ca374f-b7b0-4c96-89fd-34fe964e8380" />
+
 ## Задача 3
 
 ## Задача 4
