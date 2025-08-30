@@ -52,8 +52,6 @@
 Файлы проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-1/task-2/p4  
 Аутентификационные данные для подстановки в переменные в неопубликованном файле `crd.auto.tfvars`.
 
-Проекты по пунктам 1-4 можно объединить в один, с указанием зависимостей ресурсов.
-
 ### п. 5
 
 <img width="529" height="175" alt="t2_p5" src="https://github.com/user-attachments/assets/2734fe6d-a443-4112-b0eb-6bdec368b0a4" />
