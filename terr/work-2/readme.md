@@ -9,7 +9,7 @@
 4. `ssh-keys = "ubuntu:${var.vms_ssh_root_key}"` - в ВМ необходимо передать открытый, а не закрытый ключ, т.е. необходимо указать переменную `vms_ssh_public_root_key`.
 
 ### п. 6
-Параметры `preemptible = true` и `core_fraction=5` позволяют минимизируют затраты на облачную инфраструктуру в процессе обучения. 
+Параметры `preemptible = true` и `core_fraction=5` позволяют минимизируют затраты на ВМ в процессе обучения. 
 
 ### Итог:
 <img width="349" height="320" alt="t1_p5" src="https://github.com/user-attachments/assets/f015be56-a009-4570-bdee-87425498dfa9" />
