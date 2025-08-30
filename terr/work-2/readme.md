@@ -11,8 +11,7 @@
 ### п. 6
 Параметры `preemptible = true` и `core_fraction=5` позволяют минимизируют затраты на облачную инфраструктуру в процессе обучения. 
 
-Итог:
-
+### Итог:
 <img width="349" height="320" alt="t1_p5" src="https://github.com/user-attachments/assets/f015be56-a009-4570-bdee-87425498dfa9" />
 
 <img width="1230" height="149" alt="t1_1" src="https://github.com/user-attachments/assets/cf9086c9-461c-4763-baf9-526344adb6f9" />
