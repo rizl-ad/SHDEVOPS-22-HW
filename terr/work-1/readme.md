@@ -60,7 +60,7 @@
 
 ## Задача 3
 
-Запуск проекта через OpenTofu отличался лишь названиием root-модуля (`.tofurc`) и зеркалом registry.
+Запуск проекта через OpenTofu отличался лишь названиием файла конфигурации (`.tofurc`) и зеркалом registry.
 
 <img width="264" height="49" alt="t3_0" src="https://github.com/user-attachments/assets/21a561d5-9f36-416f-82b8-02637c447c89" />
 
