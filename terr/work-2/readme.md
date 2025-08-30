@@ -21,6 +21,11 @@
 <img width="449" height="377" alt="t1_1" src="https://github.com/user-attachments/assets/b8ca374f-b7b0-4c96-89fd-34fe964e8380" />
 
 ## Задача 3
+Для размещения второй ВМ в зоне "ru-central1-b" в ресурс "yandex_vpc_subnet.develop" добавлена строка `count = 2` переменные `pc_subnet_name` И `default_zone` объявлены как списки с добавлением значений для зоны "b", перемнная `var.default_cidr` объявлена как список из списков с добалением CIDR для подсети в зоне "b".
+
+<img width="1228" height="175" alt="t3_1" src="https://github.com/user-attachments/assets/e9b677a3-0d18-495a-ada0-a9507ab74503" />
+
+<img width="867" height="318" alt="t3_2" src="https://github.com/user-attachments/assets/dd227c98-b090-467b-8610-5b4e98ef7999" />
 
 ## Задача 4
 
