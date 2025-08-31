@@ -81,7 +81,7 @@ variable "vms_metadata" {
   default = {
     metadata = {
       serial_port_enable = 1
-      ssh_keys = "ubuntu:ssh-rsa AAAA..."
+      ssh_keys = "ubuntu:ssh-rsa AAAA..." # знаю что открытый ключ можно публиковать
     }
   }
 }
