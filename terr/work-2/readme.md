@@ -35,7 +35,8 @@
 <img width="315" height="45" alt="t4_1" src="https://github.com/user-attachments/assets/6649eeba-91e9-4536-83e3-471188273060" />
 
 ## Задача 5
-<img width="275" height="44" alt="t5_0" src="https://github.com/user-attachments/assets/cbc0c5de-8374-4329-a39c-4c2263091995" />  
+<img width="275" height="44" alt="t5_0" src="https://github.com/user-attachments/assets/cbc0c5de-8374-4329-a39c-4c2263091995" />
+
 
 <img width="567" height="692" alt="t5_1" src="https://github.com/user-attachments/assets/b26379c1-4bd7-4892-8716-38efe0fc20d1" />
 
