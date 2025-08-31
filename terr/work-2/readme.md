@@ -38,6 +38,7 @@
 <img width="1234" height="177" alt="t5_2" src="https://github.com/user-attachments/assets/c0029135-138b-4c79-bd4a-1ddf126d06e6" />
 
 ## Задача 6
+<img width="517" height="480" alt="t6_1" src="https://github.com/user-attachments/assets/61dfdbf6-3ab1-417e-8583-27edc463d297" />
 
 ## Задача 7
 
