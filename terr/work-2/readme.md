@@ -56,3 +56,7 @@ terraform console определяет тип перменной как tuple(ob
 <img width="929" height="155" alt="t9_2" src="https://github.com/user-attachments/assets/3a9a9236-48f6-4df1-8c91-f30720e32e39" /><br>
 <img width="422" height="87" alt="t9_3" src="https://github.com/user-attachments/assets/59ce65f5-7f06-485f-8658-ff5194716fa3" /><br>
 <img width="420" height="113" alt="t9_4" src="https://github.com/user-attachments/assets/afc8a4e8-48e1-4bee-a868-3c4fb03aa40f" /><br>
+
+## Итоговый код проекта
+Код: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-2
+За исключением файла "crd.auto.tfvars", в нем объявлены значения переменных cloud_id, folder_id и по итогу закомменченной vms_ssh_public_root_key.
