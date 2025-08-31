@@ -36,6 +36,10 @@
 
 ## Задача 5
 
+<img width="567" height="692" alt="t5_1" src="https://github.com/user-attachments/assets/b26379c1-4bd7-4892-8716-38efe0fc20d1" />
+
+<img width="1234" height="177" alt="t5_2" src="https://github.com/user-attachments/assets/c0029135-138b-4c79-bd4a-1ddf126d06e6" />
+
 ## Задача 6
 
 ## Задача 7
