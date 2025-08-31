@@ -16,9 +16,9 @@
 <img width="364" height="213" alt="t1_p3" src="https://github.com/user-attachments/assets/8c0dbf70-b6cf-4f0c-bf4d-6eec2e44dcf6" />
 
 ### п. 4, 5
-строка 29 - имя ресурса должно начинаться с буквы/слова. 
-строка 30 - обращение к необявленному ресурсу с типом "docker_image" и именем "nginx". 
-строка 31 - обращение к необявленному ресурсу с типом "random_password" и именем "random_string_FAKE"; обращение к несуществующему атрибуту resulT
+строка 29 - имя ресурса должно начинаться с буквы/слова.<br>
+строка 30 - обращение к необявленному ресурсу с типом "docker_image" и именем "nginx".<br>
+строка 31 - обращение к необявленному ресурсу с типом "random_password" и именем "random_string_FAKE"; обращение к несуществующему атрибуту resulT<br>
 
 <img width="262" height="140" alt="t1_p4" src="https://github.com/user-attachments/assets/ad3fb7e4-b831-47a9-a944-f4e515bdcab4" />
 
