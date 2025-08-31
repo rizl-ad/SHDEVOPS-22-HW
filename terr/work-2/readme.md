@@ -52,3 +52,7 @@ terraform console определяет тип перменной как tuple(ob
 <img width="251" height="43" alt="t8_2" src="https://github.com/user-attachments/assets/249c3654-3118-4594-9fdf-3d399a813d0c" />
 
 ## Задача 9
+<img width="1230" height="110" alt="t9_1" src="https://github.com/user-attachments/assets/a5c427f4-0cab-43d1-bb97-c9aff9512a9d" /><br>
+<img width="929" height="155" alt="t9_2" src="https://github.com/user-attachments/assets/3a9a9236-48f6-4df1-8c91-f30720e32e39" /><br>
+<img width="422" height="87" alt="t9_3" src="https://github.com/user-attachments/assets/59ce65f5-7f06-485f-8658-ff5194716fa3" /><br>
+<img width="420" height="113" alt="t9_4" src="https://github.com/user-attachments/assets/afc8a4e8-48e1-4bee-a868-3c4fb03aa40f" /><br>
