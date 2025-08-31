@@ -6,7 +6,7 @@
 1. `platform_id = "standart-v2"` в ресурсе "yandex_compute_instance.platform" - строка содержит две ошибки: платформы "v4" не существует и правильное написание идентификатора платформы "standard" - "d" на конце.
 2. `cores = 1` в ресурсе "yandex_compute_instance.platform" - допустимы значения кратные 2.
 3. `core_fraction = 5` в ресурсе "yandex_compute_instance.platform" - значение 5% допустимо только на платформах "standard-v1" и "standard-v2".
-4. `ssh-keys = "ubuntu:${var.vms_ssh_root_key}"` - в ВМ необходимо передать открытый, а не закрытый ключ, т.е. необходимо указать переменную `vms_ssh_public_root_key`.
+4. `ssh-keys = "ubuntu:${var.vms_ssh_root_key}"` - для передачи открытого ключа в ВМ мы определили переменную `vms_ssh_public_root_key`, необходимо указать её.
 
 ### п. 6
 Параметры `preemptible = true` и `core_fraction=5` позволяют минимизируют затраты на ВМ в процессе обучения. 
