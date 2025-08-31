@@ -44,5 +44,9 @@
 <img width="775" height="101" alt="t7_1" src="https://github.com/user-attachments/assets/dffb682d-ca25-4e6b-a59b-398e641785e7" />
 
 ## Задача 8
+### п. 1
+terraform console определяет тип перменной как tuple(object(tuple(string,string)))  
+<img width="252" height="203" alt="t8_1" src="https://github.com/user-attachments/assets/ac6d9a9f-1d7b-413f-babd-043ba6cd88b8" />
+
 
 ## Задача 9
