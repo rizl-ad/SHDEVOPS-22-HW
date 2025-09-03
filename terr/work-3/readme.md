@@ -2,6 +2,7 @@
 
 ## Задача 1
 
+<img width="409" height="315" alt="t1_1" src="https://github.com/user-attachments/assets/50dc7775-0564-473d-a2d1-ec2f42452368" />
 
 ## Задача 2
 
