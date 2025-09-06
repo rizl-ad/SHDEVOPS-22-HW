@@ -7,7 +7,9 @@
 ## Задачи 2-4
 Сымпровизировал по типу переменной для задания параметров ВМ. Можно было оставить `list(object({...}))`, но в моем варианте индекс главного типа `list()` при обращении к переменной был бы лишним.
 
+Скрин inventory-файла:  
 <img width="501" height="122" alt="t2-4_1" src="https://github.com/user-attachments/assets/946bebfd-1e1c-4aad-8e1c-6eba067b5ebc" />
+
 
 Ссылка на commit: https://github.com/rizl-ad/SHDEVOPS-22-HW/commit/b13217c4fe9bc4993ab6310f2a0796d20a5d0cd8
 
