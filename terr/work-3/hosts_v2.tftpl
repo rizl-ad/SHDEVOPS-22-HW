@@ -1,0 +1,20 @@
+%{~ for k,n in vm_names ~}
+[${k}servers]
+
+%{~ if k == "db" ~}
+%{~ for i in vm_db ~}
+${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn} 
+%{endfor ~}
+%{endif ~}
+
+%{~ if k == "web" ~}
+%{~ for i in vm_web ~}
+${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn} 
+%{endfor ~}
+%{endif ~}
+
+%{~ if k == "stor" ~}
+${vm_stor.name}   ansible_host=${vm_stor.network_interface.0.nat_ip_address}    fqdn=${vm_stor.fqdn} 
+%{endif ~}
+
+%{endfor ~}
