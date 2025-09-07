@@ -17,6 +17,7 @@
 <img width="275" height="408" alt="t5_2" src="https://github.com/user-attachments/assets/a4333c77-6d41-4c1b-b8b1-78a8fda02632" />
 
 ## Задача 6
+https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-3
 
 ## Задача 7
 
