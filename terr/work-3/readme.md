@@ -17,7 +17,15 @@
 <img width="275" height="408" alt="t5_2" src="https://github.com/user-attachments/assets/a4333c77-6d41-4c1b-b8b1-78a8fda02632" />
 
 ## Задача 6
-https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-3
+Результат отработки ansible-playbook:  
+<img width="646" height="184" alt="t6_1" src="https://github.com/user-attachments/assets/3468dbcd-5901-41da-b8c0-17958ddfb910" />
+
+
+Файл `hosts.ini` после доработки шаблона, оставил публичные адреса у `webserwers`, у остальных отключил
+<img width="483" height="111" alt="t6_2" src="https://github.com/user-attachments/assets/564c1100-8c5a-44d0-8dae-d08539bd104b" />
+
+
+Код проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-3
 
 ## Задача 7
 
