@@ -14,6 +14,7 @@
 Ссылка на commit: https://github.com/rizl-ad/SHDEVOPS-22-HW/commit/b13217c4fe9bc4993ab6310f2a0796d20a5d0cd8
 
 ## Задача 5
+<img width="275" height="408" alt="t5_2" src="https://github.com/user-attachments/assets/a4333c77-6d41-4c1b-b8b1-78a8fda02632" />
 
 ## Задача 6
 
