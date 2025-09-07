@@ -3,18 +3,30 @@
 
 %{~ if k == "db" ~}
 %{~ for i in vm_db ~}
-${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn} 
+%{~ if i.network_interface.0.nat ~}
+${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn}
+%{else ~}
+${i.name}   ansible_host=${i.network_interface.0.ip_address}    fqdn=${i.fqdn}
+%{endif ~}
 %{endfor ~}
 %{endif ~}
 
 %{~ if k == "web" ~}
 %{~ for i in vm_web ~}
-${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn} 
+%{~ if i.network_interface.0.nat ~}
+${i.name}   ansible_host=${i.network_interface.0.nat_ip_address}    fqdn=${i.fqdn}
+%{else ~}
+${i.name}   ansible_host=${i.network_interface.0.ip_address}    fqdn=${i.fqdn}
+%{endif ~}
 %{endfor ~}
 %{endif ~}
 
 %{~ if k == "stor" ~}
-${vm_stor.name}   ansible_host=${vm_stor.network_interface.0.nat_ip_address}    fqdn=${vm_stor.fqdn} 
+%{~ if vm_stor.network_interface.0.nat ~}
+${vm_stor.name}   ansible_host=${vm_stor.network_interface.0.nat_ip_address}    fqdn=${vm_stor.fqdn}
+%{else ~}
+${vm_stor.name}   ansible_host=${vm_stor.network_interface.0.ip_address}    fqdn=${vm_stor.fqdn}
+%{endif ~}
 %{endif ~}
 
 %{endfor ~}

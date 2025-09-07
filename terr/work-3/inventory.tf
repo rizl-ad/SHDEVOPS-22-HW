@@ -7,7 +7,7 @@ resource "local_file" "hosts" {
         vm_stor = yandex_compute_instance.storage
     }
   )
-  filename = "./hosts"
+  filename = "./hosts.ini"
 }
 
 #resource "local_file" "name" {
