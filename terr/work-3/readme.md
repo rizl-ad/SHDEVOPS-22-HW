@@ -28,6 +28,13 @@
 Код проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-3
 
 ## Задача 7
+Выражение:
+`merge(local.vpc, {
+  subnet_ids = concat(slice(local.vpc.subnet_ids, 0, 2), slice(local.vpc.subnet_ids, 3, length(local.vpc.subnet_ids))),
+  subnet_zones = concat(slice(local.vpc.subnet_zones, 0, 2), slice(local.vpc.subnet_zones, 3, length(local.vpc.subnet_zones)))
+})`
+
+<img width="566" height="289" alt="t7_1" src="https://github.com/user-attachments/assets/6f860262-afa6-469f-87e8-6d7c1f33ea3d" />
 
 ## Задача 8
 
