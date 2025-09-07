@@ -52,3 +52,9 @@ ${i["name"]} ansible_host=${i["network_interface"][0]["nat_ip_address"]} platfor
 
 ## Задача 9
 ### п. 1
+1. `[ for i in range(1,100) : i > 9 ? "rc${i}" : "rc0${i}" ]`
+2. `[ for i in range(1,100) : format("rc%02d", i) ]`
+
+### п. 2
+1. `[ for i in range(1, 97) : i > 9 ? "rc${i}" : "rc0${i}" if !contains(["0","7","8","9"], substr(i, -1, -1)) || i == 19 ]`
+2. `[ for i in range(1, 97) : format("rc%02d", i) if !contains([0, 7, 8, 9], i % 10) || i == 19 ]`
