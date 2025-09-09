@@ -15,6 +15,7 @@
 ## Задача 2
 ### п. 3
 <img width="228" height="344" alt="{2453D803-0F98-4A06-9960-B8FC8F96B211}" src="https://github.com/user-attachments/assets/4ef72729-0382-41e9-9b32-1da12a9dd9f0" />
+
 ### п. 5
 Документация к модулю: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t2_p5/vpc.md
 
