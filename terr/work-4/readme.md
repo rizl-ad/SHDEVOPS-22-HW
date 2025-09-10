@@ -20,6 +20,18 @@
 Документация к модулю: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t2_p5/vpc.md
 
 ## Задача 3
+### п. 1
+<img width="252" height="88" alt="t3_0" src="https://github.com/user-attachments/assets/1e692cde-05d1-40c3-a383-2d466666a109" />
+
+### п. 2, 3
+<img width="442" height="222" alt="t3_1" src="https://github.com/user-attachments/assets/9087fd77-6d26-4525-bef9-f024a28724e8" />
+
+### п. 4
+<img width="537" height="381" alt="t3_2" src="https://github.com/user-attachments/assets/861fcd9f-cbf9-4d7a-804f-47bf7b0845b5" />
+
+<img width="516" height="481" alt="t3_3" src="https://github.com/user-attachments/assets/57eeea66-ab8f-41bb-ab12-51500c66ca8d" />
+
+<img width="599" height="578" alt="t3_4" src="https://github.com/user-attachments/assets/f0268248-0a50-4909-9866-5a97f4a01bfa" />
 
 ## Задача 4
 
