@@ -34,6 +34,10 @@
 <img width="599" height="578" alt="t3_4" src="https://github.com/user-attachments/assets/f0268248-0a50-4909-9866-5a97f4a01bfa" />
 
 ## Задача 4
+Код: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t4
+План выполнения: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t4/apply.plan
+Результат из консоли YC:  
+<img width="904" height="391" alt="t4_1" src="https://github.com/user-attachments/assets/0adbb4f3-7da5-4d22-9a5e-1e4bf18cf6e2" />
 
 ## Задача 5
 
