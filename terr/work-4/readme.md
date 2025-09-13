@@ -71,3 +71,4 @@
 
 
 ## Задача 8
+root-модули vpc и vm: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t8
