@@ -43,6 +43,7 @@
 
 ## Задача 5
 План запуска `ha = false`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t5/plan1.plan
+
 Результаты:
 
 <img width="359" height="642" alt="t5_1" src="https://github.com/user-attachments/assets/9db8c970-4146-43ef-90eb-cdc5c85b5849" />
@@ -55,6 +56,7 @@
 <img width="895" height="139" alt="t5_7" src="https://github.com/user-attachments/assets/e74d6bcb-26da-4319-b01b-34c595931063" />
 
 Код проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t5
+
 Модуль vpc из задания 4: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t4/vpc
 
 ## Задача 6
