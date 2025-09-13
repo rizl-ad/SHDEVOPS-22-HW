@@ -42,6 +42,20 @@
 <img width="904" height="391" alt="t4_1" src="https://github.com/user-attachments/assets/0adbb4f3-7da5-4d22-9a5e-1e4bf18cf6e2" />
 
 ## Задача 5
+План запуска `ha = false`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t5/plan1.plan
+Результаты:
+
+<img width="359" height="642" alt="t5_1" src="https://github.com/user-attachments/assets/9db8c970-4146-43ef-90eb-cdc5c85b5849" />
+<img width="887" height="111" alt="t5_2" src="https://github.com/user-attachments/assets/6fb36635-ab22-4537-b018-f3be87d0f97f" />
+<img width="302" height="111" alt="t5_3" src="https://github.com/user-attachments/assets/f9560fe6-c029-494a-b4b3-2f355d8bfd25" />
+<img width="299" height="110" alt="t5_4" src="https://github.com/user-attachments/assets/3128fab6-ef46-400e-b278-0a1dabb1ee3e" />
+
+План запуска: `ha = true`: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/work-4/t5/plan2.plan
+
+<img width="895" height="139" alt="t5_7" src="https://github.com/user-attachments/assets/e74d6bcb-26da-4319-b01b-34c595931063" />
+
+Код проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t5
+Модуль vpc из задания 4: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t4/vpc
 
 ## Задача 6
 
