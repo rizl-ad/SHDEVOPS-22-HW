@@ -63,5 +63,11 @@
 <img width="472" height="116" alt="t6_1" src="https://github.com/user-attachments/assets/6005b764-e984-4982-a73d-e143843d50f8" />
 
 ## Задача 7
+<img width="699" height="257" alt="t7_1" src="https://github.com/user-attachments/assets/4d0c005f-c109-47b1-8ba9-7ea8b0f31c1f" />
+
+<img width="333" height="105" alt="t7_2" src="https://github.com/user-attachments/assets/c134eaa8-c509-4fc6-ab29-b69b62e90568" />
+
+Код проекта: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t7
+
 
 ## Задача 8
