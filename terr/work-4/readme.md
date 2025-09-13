@@ -60,6 +60,7 @@
 Модуль vpc из задания 4: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-4/t4/vpc
 
 ## Задача 6
+<img width="472" height="116" alt="t6_1" src="https://github.com/user-attachments/assets/6005b764-e984-4982-a73d-e143843d50f8" />
 
 ## Задача 7
 
