@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  vault:
+    image: vault:1.13.3
+    restart: on-failure
+    environment:
+      VAULT_DEV_ROOT_TOKEN_ID: ${VAULT_TOKEN}
+    networks:
+      terr_w4_t7: {}
+    ports:
+      - "127.0.0.1:8200:8200"
+    # volumes:
+    # - host_path:container_path 
+
+networks:
+  terr_w4_t7:
+    name: terr_w4_t7
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.20.0.0/24
