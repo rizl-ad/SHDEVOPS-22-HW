@@ -1,0 +1,30 @@
+module.db_cluster_pers.random_password.db_user_pass: Refreshing state... [id=none]
+module.vpc.yandex_vpc_network.network_terr_w4_t2: Refreshing state... [id=enp7qf476bhbge0pq5o5]
+module.vpc.yandex_vpc_subnet.subnet_terr_w4_t2[2]: Refreshing state... [id=fl88c194l4jeaiaonovc]
+module.vpc.yandex_vpc_subnet.subnet_terr_w4_t2[0]: Refreshing state... [id=e9bu873jr023ektu62i8]
+module.vpc.yandex_vpc_subnet.subnet_terr_w4_t2[1]: Refreshing state... [id=e2lriv830c64paa7ttbi]
+module.db_cluster.yandex_mdb_mysql_cluster.mysql_db_cluster: Refreshing state... [id=c9qhrg0tn1ou4chdroqg]
+module.db_cluster_pers.yandex_mdb_mysql_database.db_w4_t5: Refreshing state... [id=c9qhrg0tn1ou4chdroqg:db_w4_t5]
+module.db_cluster_pers.yandex_mdb_mysql_user.user_db_w4_t5: Refreshing state... [id=c9qhrg0tn1ou4chdroqg:app]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # module.db_cluster.yandex_mdb_mysql_cluster.mysql_db_cluster will be updated in-place
+  ~ resource "yandex_mdb_mysql_cluster" "mysql_db_cluster" {
+        id                        = "c9qhrg0tn1ou4chdroqg"
+        name                      = "mysql-db-cluster"
+        # (15 unchanged attributes hidden)
+
+      + host {
+          + assign_public_ip = true
+          + subnet_id        = "e2lriv830c64paa7ttbi"
+          + zone             = "ru-central1-b"
+        }
+
+        # (7 unchanged blocks hidden)
+    }
+
+Plan: 0 to add, 1 to change, 0 to destroy.
