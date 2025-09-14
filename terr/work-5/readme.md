@@ -63,7 +63,7 @@ Bucket создан в 6-ом задии ДЗ 4:
 Таблица:   
 <img width="506" height="201" alt="t2_6" src="https://github.com/user-attachments/assets/d0e2552e-3d95-4fb3-b418-73d74dc0906d" />
 
-Terraform backend:
+Terraform backend:   
 <img width="687" height="210" alt="t2_7" src="https://github.com/user-attachments/assets/5e78ce70-ef99-4bb5-b234-49df40d93705" />
 <img width="387" height="247" alt="t2_8" src="https://github.com/user-attachments/assets/41377616-e878-4959-911f-5a45458d2b9a" />
 
