@@ -1,5 +1,6 @@
 # Решение ДЗ к занятию «Использование Terraform в команде»
-по коду ДЗ к лекции 4:   
+по коду ДЗ к лекции 4:
+
 TFLint:   
 <img width="532" height="291" alt="t1_1" src="https://github.com/user-attachments/assets/323d7743-cb8c-4bdc-8123-4cce01a85700" />
 
@@ -7,6 +8,7 @@ TFLint:
 Остальные три об объявленных, но не используемых переменных.
 
 по коду демо к лекции 4:
+
 TFLint модуля passwords:   
 <img width="530" height="97" alt="t1_2" src="https://github.com/user-attachments/assets/2ce2be73-fdf0-4f53-9e19-9e115dc974d4" />
 
