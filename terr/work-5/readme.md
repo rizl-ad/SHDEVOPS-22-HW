@@ -48,6 +48,33 @@
 - убедитесь, что источники модуля terraform используют тег с номером версии.
 
 ## Задача 2
+### п. 2
+Bucket создан в 6-ом задии ДЗ 4:   
+<img width="460" height="113" alt="t2_1" src="https://github.com/user-attachments/assets/935c1554-8911-4895-a035-9d4d5ddfbea0" />
+
+Настройки bucket:   
+<img width="482" height="185" alt="t2_2" src="https://github.com/user-attachments/assets/21939c69-2183-4e46-b84c-af70064f5353" />
+<img width="597" height="300" alt="t2_3" src="https://github.com/user-attachments/assets/6418cf7e-31a7-4382-84d6-fdddf82cf93d" />
+<img width="542" height="185" alt="t2_4" src="https://github.com/user-attachments/assets/18ecab9d-ac78-4911-87de-bbc7205dc059" />
+
+БД YDB:   
+<img width="787" height="108" alt="t2_5" src="https://github.com/user-attachments/assets/4f7e1d3b-3f92-4230-a445-8775cf99d6a5" />
+
+Таблица:   
+<img width="506" height="201" alt="t2_6" src="https://github.com/user-attachments/assets/d0e2552e-3d95-4fb3-b418-73d74dc0906d" />
+
+Terraform backend:
+<img width="687" height="210" alt="t2_7" src="https://github.com/user-attachments/assets/5e78ce70-ef99-4bb5-b234-49df40d93705" />
+<img width="387" height="247" alt="t2_8" src="https://github.com/user-attachments/assets/41377616-e878-4959-911f-5a45458d2b9a" />
+
+### п. 3
+Код: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/work-5/t2
+
+### п. 4-6
+<img width="714" height="325" alt="t2_9" src="https://github.com/user-attachments/assets/781723ca-82ed-42c8-83c8-1c7d14204f53" />
+<img width="716" height="102" alt="t2_10" src="https://github.com/user-attachments/assets/c44e33e8-3808-425d-b6cb-c23bd9fae304" />
+
+#### 
 
 ## Задача 3
 
