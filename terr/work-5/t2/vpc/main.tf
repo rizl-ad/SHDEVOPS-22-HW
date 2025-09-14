@@ -14,6 +14,10 @@ output "network_id" {
   value = yandex_vpc_network.network_terr_w4_t8.id
 }
 
+output "security_group_ids" {
+  value = [yandex_vpc_network.network_terr_w4_t8.default_security_group_id]
+}
+
 output "subnets" {
   value = yandex_vpc_subnet.subnet_terr_w4_t8[*]
 }
