@@ -1,6 +1,6 @@
 # Решение ДЗ к занятию «Использование Terraform в команде»
 по коду ДЗ к лекции 4:   
-TFLint:
+TFLint:   
 <img width="532" height="291" alt="t1_1" src="https://github.com/user-attachments/assets/323d7743-cb8c-4bdc-8123-4cce01a85700" />
 
 Одно предупреждение об отсутствуии ограничения версии для провайдера.
