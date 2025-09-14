@@ -74,8 +74,6 @@ Terraform backend:
 <img width="714" height="325" alt="t2_9" src="https://github.com/user-attachments/assets/781723ca-82ed-42c8-83c8-1c7d14204f53" />
 <img width="716" height="102" alt="t2_10" src="https://github.com/user-attachments/assets/c44e33e8-3808-425d-b6cb-c23bd9fae304" />
 
-#### 
-
 ## Задача 3
 
 ## Задача 4
