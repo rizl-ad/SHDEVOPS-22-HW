@@ -85,6 +85,9 @@ Terraform backend:
 IP-адрес 127.0.0.1 по условиям проверки определен как не допустимый, поскольку данный адрес зарезервирован на loop-интерфейс и не может быть назначен вручную
 
 ## Задача 5
+<img width="377" height="360" alt="t5_1" src="https://github.com/user-attachments/assets/12aef0d0-c07e-456b-969a-d3bf6a4a2c17" />
+
+<img width="511" height="515" alt="t5_2" src="https://github.com/user-attachments/assets/c20e79e9-5e38-491a-b8f3-5f53f723d461" />
 
 ## Задача 6
 
