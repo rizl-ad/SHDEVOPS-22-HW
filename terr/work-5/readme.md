@@ -78,6 +78,9 @@ Terraform backend:
 Ссылка на PR: https://github.com/rizl-ad/SHDEVOPS-22-HW/pull/1
 
 ## Задача 4
+<img width="796" height="528" alt="t4_1" src="https://github.com/user-attachments/assets/6bc23d7d-3356-469b-a454-9d489d8d5e50" />
+
+<img width="807" height="519" alt="t4_2" src="https://github.com/user-attachments/assets/a576f879-3949-47ee-b31c-a4dfc711aa75" />
 
 ## Задача 5
 
