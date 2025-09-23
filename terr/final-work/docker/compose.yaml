@@ -30,7 +30,7 @@ services:
       context: .
       dockerfile: Dockerfile.python
     image: python_terr_final_work:3.12-slim
-    container_name: web_w5_t3
+    container_name: web_terr_final_work
     restart: on-failure
     environment:
       DB_HOST: db
