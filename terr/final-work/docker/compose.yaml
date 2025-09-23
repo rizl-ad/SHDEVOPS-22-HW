@@ -26,7 +26,6 @@ include:
 services:
 
   web:
-    #image: cr.yandex/crptsj5gjb8e158fju81/python_w5_yc:3.12-slim 
     build:
       context: .
       dockerfile: Dockerfile.python
@@ -38,11 +37,6 @@ services:
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
       DB_NAME: ${DB_DATABASE}
-    #volumes:
-    #  - ./crd_data/ca.pem:/app/ca.pem
-    #  - ./crd_data/client-cert.pem:/app/client-cert.pem
-    #  - ./crd_data/client-key.pem:/app/client-key.pem
-    #  - ./crd_data:/app/cert
     networks:
       backend:
         ipv4_address: 172.20.0.5
@@ -58,7 +52,6 @@ services:
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql:rw
       - ./my.cnf:/etc/my.cnf:rw
-    #  - ./crd_data:/var/lib/mysql:rw
     networks:
       backend:
         ipv4_address: 172.20.0.10
