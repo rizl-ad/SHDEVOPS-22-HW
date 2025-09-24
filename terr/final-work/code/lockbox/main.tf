@@ -25,5 +25,5 @@ data "yandex_lockbox_secret_version" "secret_version" {
 
 output "secret_value" {
   value = data.yandex_lockbox_secret_version.secret_version.entries[0].text_value
-  #sensitive = true
+  sensitive = true
 }
