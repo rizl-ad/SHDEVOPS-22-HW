@@ -23,9 +23,11 @@
 
 ## Docker-образ сохраняется в Yandex Container Registry.
 
-<img width="462" height="216" alt="cr" src="https://github.com/user-attachments/assets/ff25d0f6-2640-485b-bf23-ca41c28bf73c" />
+<img width="726" height="199" alt="cr_cloud_init" src="https://github.com/user-attachments/assets/4f814855-2b89-4b9f-ab53-08163db6006f" />
 
-<img width="778" height="211" alt="image" src="https://github.com/user-attachments/assets/cd2f401e-fb0f-47a3-bcc6-6d22be45efe3" />
+<img width="452" height="204" alt="cr" src="https://github.com/user-attachments/assets/afb8690f-6308-484b-bb6e-2b33990b468b" />
+
+<img width="772" height="208" alt="image" src="https://github.com/user-attachments/assets/78d7d8e1-88b0-4e6b-9d32-9357a3d51052" />
 
 
 ## Приложение работает с кластером MySQL, развернутым в Yandex Cloud.
