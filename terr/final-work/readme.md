@@ -2,9 +2,11 @@
 
 ## Инфраструктура описана в отдельных модулях.
 
-Код проетка: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/final-work/code
+Код проекта docker: https://github.com/rizl-ad/terr-final-work-docker-files
 
-План развертывания:
+Код проетка terraform: https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/terr/final-work/code
+
+План развертывания terraform: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/terr/final-work/code/apply.plan
 
 
 ## State-файл хранится удаленно, подключен statelocking.
