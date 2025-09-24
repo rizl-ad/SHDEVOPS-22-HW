@@ -46,4 +46,9 @@
 
 ## Приложение доступно по публичному ip-адресу ВМ.
 
+<img width="650" height="335" alt="sg_in" src="https://github.com/user-attachments/assets/5d6d027d-7c71-47eb-865b-271a007359cc" />
+
+<img width="580" height="330" alt="sql" src="https://github.com/user-attachments/assets/c1d4fbbe-7a42-4a59-ae90-aada903329eb" />
+
+
 
