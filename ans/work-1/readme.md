@@ -17,6 +17,8 @@
 ### п. 3
 <img width="751" height="249" alt="t3" src="https://github.com/user-attachments/assets/074970b7-41ad-4409-8ba7-7ee9a8234272" />
 
+Docker-файл для сборки образа Ubuntu: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/ans/work-1/ubuntu/Dockerfile
+
 ### п. 4
 <img width="757" height="235" alt="t4" src="https://github.com/user-attachments/assets/ab04b2d7-c5c3-40f8-9973-27d6c4816551" />
 
