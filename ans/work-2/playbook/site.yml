@@ -1,0 +1,79 @@
+---
+- name: Install Clickhouse and Vector
+  hosts: clickhouse
+
+  handlers:
+
+    - name: Start clickhouse service
+      become: true
+      ansible.builtin.service:
+        name: clickhouse-server
+        enabled: true
+        state: restarted
+
+    - name: Enable and start vector service
+      become: true
+      ansible.builtin.service:
+        name: vector
+        enabled: true
+        state: reloaded
+
+  tasks:
+
+    - block:
+      - name: Get clickhouse packages
+        ansible.builtin.get_url:
+          url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.noarch.rpm"
+          dest: "./{{ item }}-{{ clickhouse_version }}.rpm"
+          mode: "0644"
+        with_items: "{{ clickhouse_packages }}"
+      rescue:
+        - name: Get unloaded clickhouse package
+          ansible.builtin.get_url:
+            url: "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+            dest: "./clickhouse-common-static-{{ clickhouse_version }}.rpm"
+            mode: "0644"
+
+    - name: Install clickhouse packages
+      become: true
+      ansible.builtin.yum:
+        disable_gpg_check: true
+        name:
+          - clickhouse-common-static-{{ clickhouse_version }}.rpm
+          - clickhouse-client-{{ clickhouse_version }}.rpm
+          - clickhouse-server-{{ clickhouse_version }}.rpm
+      notify: Start clickhouse service
+
+    - name: Flush handlers # Принудительный запуск обработчиков handlers ранее вызванных через notify
+      ansible.builtin.meta: flush_handlers
+
+    - name: Pause after create DB # Задержка 10 секунд перед созданием БД
+      ansible.builtin.pause:
+        seconds: 10
+
+    - name: Create database
+      ansible.builtin.command: "clickhouse-client -q 'create database logs;'"
+      register: create_db
+      failed_when: create_db.rc != 0 and create_db.rc != 82
+      changed_when: create_db.rc == 0
+
+    - name: Get vector packages
+      ansible.builtin.get_url:
+        url: "https://packages.timber.io/vector/0.50.0/vector-{{ vector_version }}.x86_64.rpm"
+        dest: "./vector-{{ vector_version }}.rpm"
+        mode: "0644"
+
+    - name: Install vector package
+      become: true
+      ansible.builtin.yum:
+        disable_gpg_check: true
+        name:
+          - vector-{{ vector_version }}.rpm
+
+    - name: Vector configure
+      become: true
+      ansible.builtin.template:
+        src: "./vector.j2"
+        dest: "/etc/vector/vector.yaml"
+        mode: "0644"
+      notify: Enable and start vector service
