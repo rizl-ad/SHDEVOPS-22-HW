@@ -1,7 +1,21 @@
 ---
 clickhouse:
   hosts:
-    clickhouse-01:
-      ansible_host: 158.160.39.59
-      # ansible_user: указан через переменную окружения ANSIBLE_REMOTE_USER
-      ansible_ssh_private_key_file: "~/.ssh/ssh-key"
+    clickhouse01:
+      ansible_host: "{{ clickhouse01_ip }}"
+      ansible_user: "{{ user_name }}"
+      ansible_ssh_private_key_file: "{{ ssh_key }}"
+
+vector:
+  hosts:
+    vector01:
+      ansible_host: "{{ vector01_ip }}"
+      ansible_user: "{{ user_name }}"
+      ansible_ssh_private_key_file: "{{ ssh_key }}"
+
+lighthouse:
+  hosts:
+    lighthouse01:
+      ansible_host: "{{ lighthouse01_ip }}"
+      ansible_user: "{{ user_name }}"
+      ansible_ssh_private_key_file: "{{ ssh_key }}"
