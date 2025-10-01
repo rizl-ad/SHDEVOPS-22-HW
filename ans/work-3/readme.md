@@ -50,7 +50,7 @@ ansible-lint выдает предупреждение по поводу при�
 на хосте vector01:   
 <img width="417" height="130" alt="t7_2" src="https://github.com/user-attachments/assets/2a53e601-aedc-4347-bffc-83d0db4bc263" />
 
-на хосте vector01:   
+на хосте lighthouse01:   
 <img width="420" height="310" alt="t7_3" src="https://github.com/user-attachments/assets/ba1fc11c-911c-44b8-94f5-a3fea1103e0c" />
 
 <img width="298" height="85" alt="t7_4" src="https://github.com/user-attachments/assets/e078547a-0634-41c0-a7da-28c824401e7e" />
@@ -61,3 +61,4 @@ ansible-lint выдает предупреждение по поводу при�
 
 ### п. 10
 Ссылка на commit: https://github.com/rizl-ad/SHDEVOPS-22-HW/commit/f57ccaa0bc77709f5ce36ab9febd3a4d12fbc5a3
+
