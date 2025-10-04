@@ -2,5 +2,5 @@
 clickhouse01_ip: XXX.XXX.XXX.XXX
 vector01_ip: XXX.XXX.XXX.XXX
 lighthouse01_ip: XXX.XXX.XXX.XXX
-user_name: "user"
-ssh_key: "~/.ssh/ssh-key"
+user_name: "user_name"
+ssh_key: "~/.ssh/id_rsa"
