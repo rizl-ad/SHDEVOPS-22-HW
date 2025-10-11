@@ -1,0 +1,6 @@
+---
+- name: Install nginx package
+  become: true
+  ansible.builtin.yum:
+    name:
+      - nginx

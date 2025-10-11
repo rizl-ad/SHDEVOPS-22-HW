@@ -1,0 +1,25 @@
+---
+# tasks file for lighthouse-role
+- name: Include tasks git install
+  ansible.builtin.include_tasks: git.yml
+
+- name: Include tasks nginx install
+  ansible.builtin.include_tasks: nginx.yml
+
+- name: Nginx configure
+  become: true
+  ansible.builtin.template:
+    src: "./templates/lighthouse.j2"
+    dest: "/etc/nginx/conf.d/lighthouse.conf"
+    mode: "0755"
+
+- name: Get Lighthouse files
+  become: true
+  ansible.builtin.git:
+    repo: "{{ lighthouse_url }}"
+    dest: "/usr/share/nginx/html/lighthouse"
+    version: master
+  notify: Enable and start nginx service
+
+- name: Notify lighthouse handlers
+  ansible.builtin.meta: flush_handlers
