@@ -8,11 +8,13 @@
 
 ## Molecule
 ### п. 1
-При запуске molecule сценария ubuntu_xenial из роли clickhouse возникли ошибки, полагаю, из-за несовместимости версий python/ansible для которых написан сценарий с теми, что применены для выполнения задания.   
+При запуске molecule-сценария ubuntu_xenial из роли clickhouse возникли ошибки, полагаю, из-за несовместимости версий python/ansible для которых написан сценарий с теми, что применены для выполнения задания.
+
 <img width="750" height="870" alt="t1_1" src="https://github.com/user-attachments/assets/4414db8e-db90-4c7a-aed3-53cb05bf4a84" />
 
 ### п. 2
-Запуск команды `molecule init scenario --driver-name docker` завершился ошибкой, т.к. версия Molecule 25.9.0 не имеет опции `--driver-name`.   
+Запуск команды `molecule init scenario --driver-name docker` завершился ошибкой, т.к. версия Molecule 25.9.0 не имеет опции `--driver-name`.
+
 <img width="593" height="268" alt="t1_2" src="https://github.com/user-attachments/assets/4d5a62c9-6a62-43f7-9531-849d4d2e771b" />
 
 ### п. 3-5
@@ -23,7 +25,8 @@
 > Чтобы сохранить первоначальное назначение роли, было принято решение подготовить контейнеры для управления ими через ansible как полноценными хостами.
 > Поэтому в сценариях тестирования включен playbook prepare.yml, устанавливающий Python в контейнеры.
 
-Выполнение сценария тестирования:   
+Выполнение сценария тестирования:
+
 <img width="752" height="419" alt="t1_3" src="https://github.com/user-attachments/assets/d7874379-90a2-4778-86d0-eb496b53eb1f" />
 
 <img width="753" height="107" alt="t1_4" src="https://github.com/user-attachments/assets/e5c42c69-9fc0-4443-8680-8e31c6d5a60b" />
@@ -63,5 +66,6 @@
 
 ## Tox
 ### п. 1
+
 
 
