@@ -102,7 +102,7 @@ Cсылка на `tag 1.1.0`: https://github.com/rizl-ad/vector-role/tree/1.1.0
 
 <img width="753" height="494" alt="t2_6" src="https://github.com/user-attachments/assets/830dbb59-46f0-4059-9276-7c57822fa96d" />
 
-<img width="472" height="491" alt="t2_7" src="https://github.com/user-attachments/assets/905c0407-0312-402c-95fc-a0f939a5f27e" />   
+<img width="472" height="491" alt="t2_7" src="https://github.com/user-attachments/assets/905c0407-0312-402c-95fc-a0f939a5f27e" />
 
 <img width="472" height="337" alt="t2_8" src="https://github.com/user-attachments/assets/5596f5e2-d9ee-4b40-820d-47877fc73a7a" />
 
@@ -122,6 +122,7 @@ Cсылка на `tag 1.1.1`: https://github.com/rizl-ad/vector-role/tree/1.1.1
 
 ## Необязательная часть
 По большому счёту, выполнене данной части задания - вопрос времени, которое на текущий момент не удается выделить.
+
 
 
 
