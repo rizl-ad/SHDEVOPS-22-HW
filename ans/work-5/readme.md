@@ -71,7 +71,7 @@
 <img width="751" height="80" alt="t1_19" src="https://github.com/user-attachments/assets/9b9273fc-633d-4f71-907f-93a71981d39e" />
 
 ### п. 6
-Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/c3ed0fcea84385f506ceded76df435740423f5b3
+Ссылка на commit `tag 1.1.0`: https://github.com/rizl-ad/vector-role/commit/c3ed0fcea84385f506ceded76df435740423f5b3
 
 ---
 
@@ -112,12 +112,15 @@
 <img width="340" height="65" alt="t2_10" src="https://github.com/user-attachments/assets/e80c4a4a-d53c-40b4-8dfe-5afd29af81ed" />
 
 ### п. 7
-Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/1ed7304963e3aad7b490368cad63933323e01f73
+Ссылка на commit `tag 1.1.1`: https://github.com/rizl-ad/vector-role/commit/1ed7304963e3aad7b490368cad63933323e01f73
+
+Ссылка на репозиторий роли vector: https://github.com/rizl-ad/vector-role
 
 ---
 
 ## Необязательная часть
 По большому счёту, выполнене данной части задания - вопрос времени, которое на текущий момент не удается выделить.
+
 
 
 
