@@ -72,6 +72,7 @@
 
 ### п. 6
 Ссылка на commit `release of 1.1.0`: https://github.com/rizl-ad/vector-role/commit/c3ed0fcea84385f506ceded76df435740423f5b3
+Cсылка на `tag 1.1.0`: https://github.com/rizl-ad/vector-role/tree/1.1.0
 
 ---
 
@@ -113,6 +114,7 @@
 
 ### п. 7
 Ссылка на commit `release of 1.1.1`: https://github.com/rizl-ad/vector-role/commit/1ed7304963e3aad7b490368cad63933323e01f73
+Cсылка на `tag 1.1.1`: https://github.com/rizl-ad/vector-role/tree/1.1.1
 
 Ссылка на репозиторий роли vector: https://github.com/rizl-ad/vector-role
 
@@ -120,6 +122,7 @@
 
 ## Необязательная часть
 По большому счёту, выполнене данной части задания - вопрос времени, которое на текущий момент не удается выделить.
+
 
 
 
