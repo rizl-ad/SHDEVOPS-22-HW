@@ -5,6 +5,7 @@
 - Python 3.12.3
 - Molecule 25.9.0
 - Tox 4.13.0
+
 ---
 
 ## Molecule
@@ -71,6 +72,7 @@
 
 ### п. 6
 Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/c3ed0fcea84385f506ceded76df435740423f5b3
+
 ---
 
 ## Tox
@@ -111,10 +113,12 @@
 
 ### п. 7
 Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/1ed7304963e3aad7b490368cad63933323e01f73
+
 ---
 
 ## Необязательная часть
 По большому счёту, выполнене данной части задания - вопрос времени, которое на текущий момент не удается выделить.
+
 
 
 
