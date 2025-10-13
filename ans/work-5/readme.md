@@ -68,12 +68,50 @@
 
 <img width="751" height="80" alt="t1_19" src="https://github.com/user-attachments/assets/9b9273fc-633d-4f71-907f-93a71981d39e" />
 
-### п. 1
+### п. 6
 Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/c3ed0fcea84385f506ceded76df435740423f5b3
 
 ## Tox
-### п. 1
+### п. 1-3
+Запуск `tox` из контейнера `aragast/netology:latest` завершился ошибкой по причинам несовместимости версий python/ansible заданных в `tox.ini` с теми, что применены для выполнения задания.
 
+<img width="745" height="1117" alt="t2_1" src="https://github.com/user-attachments/assets/57f69d98-a8f0-4b58-8c9b-fc6455a5edaf" />
+
+<img width="744" height="258" alt="t2_2" src="https://github.com/user-attachments/assets/f58a17cb-744d-4242-aa4a-66ee99c41e63" />
+
+### п. 4-6
+> [!NOTE]
+> Поскольку в контейнере `aragast/netology:latest` отсутствуют необходимые для тестирования роли версии python/ansible, было принято решение проводить тестирование в собственной среде.
+
+Выполнено тестирование на двух окружениях:
+- Python 3.10 с Ansible 2.17
+- Python 3.12 с Ansible 2.19
+
+Выполнение сценария тестирования:
+
+<img width="568" height="498" alt="t2_3" src="https://github.com/user-attachments/assets/83fc701e-66c1-4b5a-a6c6-5bde737b8145" />
+
+<img width="481" height="381" alt="t2_4" src="https://github.com/user-attachments/assets/f59f564b-8e41-4ff9-afe9-33552bfc01e5" />
+
+<img width="753" height="506" alt="t2_5" src="https://github.com/user-attachments/assets/920dada6-fd50-40df-a8fb-ab68768edd49" />
+
+<img width="753" height="494" alt="t2_6" src="https://github.com/user-attachments/assets/830dbb59-46f0-4059-9276-7c57822fa96d" />
+
+<img width="472" height="491" alt="t2_7" src="https://github.com/user-attachments/assets/905c0407-0312-402c-95fc-a0f939a5f27e" />
+
+<img width="472" height="337" alt="t2_8" src="https://github.com/user-attachments/assets/5596f5e2-d9ee-4b40-820d-47877fc73a7a" />
+
+<img width="560" height="105" alt="t2_9" src="https://github.com/user-attachments/assets/2d523e10-9f7f-4ac1-84a3-83ee3b5f5e8a" />
+
+...
+
+<img width="340" height="65" alt="t2_10" src="https://github.com/user-attachments/assets/e80c4a4a-d53c-40b4-8dfe-5afd29af81ed" />
+
+### п. 7
+Ссылка на commit: https://github.com/rizl-ad/vector-role/commit/1ed7304963e3aad7b490368cad63933323e01f73
+
+## Необязательная часть
+По большому счёту, выполнене данной части задания - вопрос времени, которое на текущий момент не удается выделить.
 
 
 
