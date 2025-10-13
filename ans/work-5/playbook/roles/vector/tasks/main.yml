@@ -1,56 +1,61 @@
 ---
 # tasks file for vector-role
-
 - name: Get Vector rpm-package
-  ansible.builtin.get_url:
-    url: https://packages.timber.io/vector/0.50.0/vector-{{ vector_version }}.x86_64.rpm
-    dest: ./vector-{{ vector_version }}.rpm
-    mode: "0644"
-  # ansible.builtin.copy:
-  #   src: ~/vector_pkg/vector-{{ vector_version }}.x86_64.rpm
+  # ansible.builtin.get_url:
+  #   url: https://packages.timber.io/vector/0.50.0/vector-{{ vector_version }}.x86_64.rpm
   #   dest: ./vector-{{ vector_version }}.rpm
-  #   owner: root
-  #   group: root
   #   mode: "0644"
+  ansible.builtin.copy:
+    src: ~/vector_pkg/vector-{{ vector_version }}.x86_64.rpm
+    dest: ./vector-{{ vector_version }}.rpm
+    owner: root
+    group: root
+    mode: "0644"
   when: ansible_os_family == "RedHat"
 
 - name: Get Vector deb-package
-  ansible.builtin.get_url:
-    url: https://packages.timber.io/vector/0.50.0/vector_{{ vector_version }}_amd64.deb
-    dest: ./vector-{{ vector_version }}.deb
-    mode: "0644"
-  # ansible.builtin.copy:
-  #   src: ~/vector_pkg/vector_{{ vector_version }}_amd64.deb
+  # ansible.builtin.get_url:
+  #   url: https://packages.timber.io/vector/0.50.0/vector_{{ vector_version }}_amd64.deb
   #   dest: ./vector-{{ vector_version }}.deb
-  #   owner: root
-  #   group: root
   #   mode: "0644"
+  ansible.builtin.copy:
+    src: ~/vector_pkg/vector_{{ vector_version }}_amd64.deb
+    dest: ./vector-{{ vector_version }}.deb
+    owner: root
+    group: root
+    mode: "0644"
   when: ansible_os_family == "Debian"
 
 - name: Install Vector rpm-package
-  become: true
   when: ansible_os_family == "RedHat"
   block:
     - name: Install rpm-package with package manager
+      become: true
       ansible.builtin.dnf:
         disable_gpg_check: true
         name: vector-{{ vector_version }}.rpm
   rescue:
     - name: Install rpm-package without package manager
+      become: false
       ansible.builtin.shell: yum install -y ./vector-{{ vector_version }}.rpm
+      args:
+        executable: /bin/bash
       register: inst_state
       changed_when: inst_state.rc == 0 and "is already installed" not in inst_state.stdout
 
 - name: Install Vector deb-package
-  become: true
   when: ansible_os_family == "Debian"
   block:
     - name: Install deb-package with package manager
+      become: true
       ansible.builtin.apt:
         deb: ./vector-{{ vector_version }}.deb
   rescue:
     - name: Install deb-package without package manager
+      become: false
       ansible.builtin.shell: apt install -y ./vector-{{ vector_version }}.deb
+      args:
+        executable: /bin/bash
       register: inst_state
       changed_when: inst_state.rc == 0 and "is already installed" not in inst_state.stdout
 

@@ -36,7 +36,7 @@ ansible:
       ansible_playbook:
         - --diff
         - --force-handlers
-        # - --inventory=/path/to/inventory.yml
+        # - --inventory=${MOLECULE_SCENARIO_DIRECTORY}/inventory/inventory.yml
       ansible_navigator:
         - --mode stdout
         - --pull-policy missing
