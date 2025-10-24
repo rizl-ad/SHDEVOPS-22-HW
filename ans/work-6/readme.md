@@ -1,6 +1,6 @@
 # Решение ДЗ к занятию 6 «Создание собственных модулей»
 
-## Основная частьп4
+## Основная часть
 
 Ссылка на collection: https://github.com/rizl-ad/ans_hw_collection.git
 
@@ -14,4 +14,5 @@
 
 ### п. 15, 16
 <img width="713" height="335" alt="p15-16" src="https://github.com/user-attachments/assets/3d673e45-9a97-4eee-a024-cd2fa6dd2c4f" />
+
 
