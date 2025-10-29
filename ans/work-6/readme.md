@@ -39,7 +39,7 @@
   `. example.sh`
 
 > [!NOTE]
-> Запуск примера/модуля yc_vm_create на Debian-подобных ОС осуществлять в виртуальном коружении Python.
+> Запуск примера/модуля yc_vm_create на Debian-подобных ОС осуществлять в виртуальном окружении Python.
 
 ### Скрины запуска демонстрационного скрипта
 
@@ -66,5 +66,6 @@ Playbooks успешно отработали.
 <img width="737" height="161" alt="t2_10" src="https://github.com/user-attachments/assets/e0194873-dba3-44f8-b9d0-5161541fe072" />
 
 Playbooks идемпотенты.
+
 
 
