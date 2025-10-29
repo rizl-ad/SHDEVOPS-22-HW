@@ -2,7 +2,7 @@
 
 ## Основная часть
 
-Ссылка на архив: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/ans/work-6/rizl_ad-my_collection-1.0.0.tar.gz
+Ссылка на build-архив: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/ans/work-6/rizl_ad-my_collection-1.0.0.tar.gz
 
 Ссылка на релиз: https://github.com/rizl-ad/ans_hw_collection/releases/tag/1.0.0
 
@@ -19,7 +19,7 @@
 
 Ссылка на collection: https://github.com/rizl-ad/ans_hw_collection.git
 
-Ссылка на архив: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/ans/work-6/rizl_ad-my_collection-1.1.0.tar.gz
+Ссылка на build-архив: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/ans/work-6/rizl_ad-my_collection-1.1.0.tar.gz
 
 Ссылка на релиз: https://github.com/rizl-ad/ans_hw_collection/releases/tag/1.1.0
 
@@ -66,6 +66,7 @@ Playbooks успешно отработали.
 <img width="737" height="161" alt="t2_10" src="https://github.com/user-attachments/assets/e0194873-dba3-44f8-b9d0-5161541fe072" />
 
 Playbooks идемпотенты.
+
 
 
 
