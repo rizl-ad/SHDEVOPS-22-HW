@@ -25,7 +25,7 @@
 
 Коллекция содержит демонстрационный пример развертывания стека с использованием модуля создания виртуальных машин в Yandex Cloud.
 
-Пример раздел не два playbook:
+Пример разделен на два playbook:
 - instances.yml, вызывающий tasks-файл create_vm.yml - deploy виртуальных машин с inventory-файлом;
 - stack.yml, вызывающий роли vector, lighthouse, clickhouse - deploy прикладной части.
 
@@ -66,4 +66,5 @@ Playbooks успешно отработали.
 <img width="737" height="161" alt="t2_10" src="https://github.com/user-attachments/assets/e0194873-dba3-44f8-b9d0-5161541fe072" />
 
 Playbooks идемпотенты.
+
 
