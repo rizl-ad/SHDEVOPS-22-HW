@@ -49,10 +49,12 @@ Zabbix и VictoriaMetrics являются системами мониторин
 
 ### п. 7
 Скрин:
+
 <img width="929" height="584" alt="t7_1" src="https://github.com/user-attachments/assets/c75dbec4-dd85-4a1a-b2cf-995615994c0e" />
 
 ### п. 8
 Скрин:
+
 <img width="926" height="584" alt="t8_1" src="https://github.com/user-attachments/assets/6b1afc68-e09b-48f0-84d3-4e79260a1a2f" />
 
 ### п. 8
@@ -61,6 +63,7 @@ Zabbix и VictoriaMetrics являются системами мониторин
 Чтобы запустить стек потребовалось его допилить.
 
 Скринт:
+
 <img width="929" height="584" alt="t9_1" src="https://github.com/user-attachments/assets/4c2f1590-b85f-45f8-bdf8-9917788a7891" />
 
 ## Дополнительное задание
