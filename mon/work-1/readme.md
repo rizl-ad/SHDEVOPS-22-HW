@@ -48,6 +48,10 @@
 Zabbix и VictoriaMetrics являются системами мониторинга, поддерживающими обе модели.
 
 ### п. 7
+> [!NOTE]
+> TICK-стек не работает сразу из клона репозитория https://github.com/influxdata/sandbox/tree/master, т.к. собирался 6 лет назад!
+> Чтобы запустить стек потребовалось его допилить.
+
 Скрин:
 
 <img width="929" height="584" alt="t7_1" src="https://github.com/user-attachments/assets/c75dbec4-dd85-4a1a-b2cf-995615994c0e" />
@@ -58,9 +62,7 @@ Zabbix и VictoriaMetrics являются системами мониторин
 <img width="926" height="584" alt="t8_1" src="https://github.com/user-attachments/assets/6b1afc68-e09b-48f0-84d3-4e79260a1a2f" />
 
 ### п. 8
-Плагин docker присутствует в конфиге telegraf сразу после клонирования репозитория https://github.com/influxdata/sandbox/tree/master и в docker-compose.yml тоже сконфигурирован.   
-Но стек не работает сразу из клона, т.к. собирался 6 лет назад.   
-Чтобы запустить стек потребовалось его допилить.
+Плагин docker присутствует в конфиге telegraf сразу после клонирования репозитори.   
 
 Скрин:
 
