@@ -71,6 +71,16 @@ Zabbix и VictoriaMetrics являются системами мониторин
 ## Дополнительное задание
 
 ### п. 1
+Скрипт: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/mon/work-1/mon-script/mon.py
 
+Задание cron пользователя root: `* * * * * python3.12 /script_folder_path/mon.py`
+
+Лог, созданный скриптом: https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/mon/work-1/mon-script/2025-11-01-awesome-monitoring.log
 
 ### п. 2
+
+Скрин дашборда:
+
+<img width="927" height="582" alt="t9_2" src="https://github.com/user-attachments/assets/d2853024-de29-4089-ba7a-10670c96bd25" />
+
+
