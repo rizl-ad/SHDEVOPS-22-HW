@@ -19,7 +19,7 @@
 - GF_SMTP_FROM_ADDRESS
 - GF_SMTP_SKIP_VERIFY
 
-Cкриншоты событий из e-mail-канала нотификаций:
+Cкриншоты событий из e-mail-канала нотификации:
 
 <img width="484" height="556" alt="tA_1" src="https://github.com/user-attachments/assets/49bc31f0-1a5a-45ab-8301-399a00ffb61d" />
 
