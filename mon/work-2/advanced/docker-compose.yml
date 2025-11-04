@@ -1,0 +1,24 @@
+---
+services:
+  grafana:
+    image: grafana/grafana:main-ubuntu
+    restart: on-failure
+    env_file:
+      - .env
+    volumes:
+      - ./grafana/data/:/var/lib/grafana/:rw
+    ports:
+      - 3000:3000
+  
+  prometheus:
+    image: prom/prometheus:main
+    restart: on-failure
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:rw
+      - ./prometheus/data/:/var/lib/prometheus/:rw
+    ports:
+      - 9090:9090
+
+  host-01:
+    image: prom/node-exporter:latest
+    restart: on-failure
