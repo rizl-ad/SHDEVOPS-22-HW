@@ -11,7 +11,7 @@
 - `GF_SECURITY_ADMIN_USER`
 - `GF_SECURITY_ADMIN_PASSWORD`
 - `GF_AUTH_ANONYMOUS_ENABLED`
-2. Конфигурирование отправки алертов через SMTP:
+2. Конфигурирование e-mail-канала нотификации:
 - `GF_SMTP_ENABLED`
 - `GF_SMTP_HOST`
 - `GF_SMTP_USER`
