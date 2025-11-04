@@ -33,8 +33,7 @@ Cкриншоты событий из e-mail-канала нотификаций
 
 Скриншот веб-интерфейса grafana со списком подключенных Datasource:
 
-<img width="484" height="556" alt="tA_1" src="https://github.com/user-attachments/assets/e3bdf10a-2a9e-4199-9ab5-e598d429d48f" />
-
+<img width="927" height="584" alt="t1_1" src="https://github.com/user-attachments/assets/70543e31-1a6d-4e02-bef9-3cf4c49fa9f2" />
 
 ### Задание 2
 
@@ -46,15 +45,13 @@ PromQL запросы:
 
 Скриншот Dashboard:
 
-<img width="491" height="607" alt="tA_2" src="https://github.com/user-attachments/assets/d15e3f16-ffe1-403d-bebd-791a8c140a06" />
-
+<img width="926" height="584" alt="t2_1" src="https://github.com/user-attachments/assets/6b06fc8d-a5c8-4edd-bd78-f53482d3df32" />
 
 ### Задание 3
 
 Скриншот Dashboard с подключенными алертами:
 
-<img width="493" height="610" alt="tA_3" src="https://github.com/user-attachments/assets/e5e1df06-1730-4b72-8e34-1ae3412cff48" />
-
+<img width="925" height="585" alt="t3_1" src="https://github.com/user-attachments/assets/59746d21-0c9e-459e-82b6-7206a5128e84" />
 
 ### Задание 4
 
