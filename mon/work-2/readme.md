@@ -8,16 +8,16 @@
 
 Переменные окружения загружаемые из файла .env в контейнер grafana:
 1. Авторизационные данные Grafana:
-- GF_SECURITY_ADMIN_USER
-- GF_SECURITY_ADMIN_PASSWORD
-- GF_AUTH_ANONYMOUS_ENABLED
+- `GF_SECURITY_ADMIN_USER`
+- `GF_SECURITY_ADMIN_PASSWORD`
+- `GF_AUTH_ANONYMOUS_ENABLED`
 2. Конфигурирование отправки алертов через SMTP:
-- GF_SMTP_ENABLED
-- GF_SMTP_HOST
-- GF_SMTP_USER
-- GF_SMTP_PASSWORD
-- GF_SMTP_FROM_ADDRESS
-- GF_SMTP_SKIP_VERIFY
+- `GF_SMTP_ENABLED`
+- `GF_SMTP_HOST`
+- `GF_SMTP_USER`
+- `GF_SMTP_PASSWORD`
+- `GF_SMTP_FROM_ADDRESS`
+- `GF_SMTP_SKIP_VERIFY`
 
 Cкриншоты событий из e-mail-канала нотификации:
 
