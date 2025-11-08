@@ -10,12 +10,11 @@
 
 <img width="926" height="585" alt="t1_2" src="https://github.com/user-attachments/assets/bd9a92a4-4bb2-42ac-9ee8-e7f8ba480e5c" />
 
-
+Конфигурации:
 - [docker-compose манифест](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/mon/work-3/cfg/docker-compose.yml)
-- [файлы конфигураций elasticsearch](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/mon/work-3/cfg/configs/elasticsearch/instances.yml)
-- [файлы конфигураций logstash](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/mon/work-3/cfg/configs/logstash)
-- [файлы конфигураций filebeat](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/mon/work-3/cfg/configs/filebeat)
-
+- [elasticsearch](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/mon/work-3/cfg/configs/elasticsearch/instances.yml)
+- [logstash](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/mon/work-3/cfg/configs/logstash)
+- [filebeat](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/mon/work-3/cfg/configs/filebeat)
 
 ## Задание 2
 
