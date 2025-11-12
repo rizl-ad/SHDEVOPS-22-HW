@@ -32,7 +32,7 @@
 <br><br>
 Код подключения sentry_sdk:
 
-```
+```python
 import sentry_sdk
 import logging
 from sentry_sdk.integrations.logging import LoggingIntegration
