@@ -4,23 +4,26 @@
 
 Скриншот меню Projects.:
 
-
+<img width="1280" height="735" alt="t1_1" src="https://github.com/user-attachments/assets/93c2e3f9-aa82-47cb-8199-57b7d24a15d9" />
+---
 
 ## Задание 2
 
 Скриншот Stack trace:
 
-
+<img width="1280" height="732" alt="t2_1" src="https://github.com/user-attachments/assets/7c886ff4-ca9f-4ea7-91a4-a7954fa3c190" />
 
 Скриншот списка событий проекта после нажатия Resolved:
 
-
+<img width="1280" height="735" alt="t2_2" src="https://github.com/user-attachments/assets/c8a04998-fdc3-42f0-b47c-d2f243a8cee0" />
+---
 
 ## Задание 3
 
 Скриншот тела сообщения из оповещения на почте:
 
-
+<img width="1086" height="547" alt="t3_1" src="https://github.com/user-attachments/assets/2c54bed1-a6d4-4478-b4cc-4df899381c84" />
+---
 
 ## Задание повышенной сложности
 
@@ -28,9 +31,11 @@
 
 Скриншот меню issues вашего проекта:
 
+<img width="1280" height="735" alt="tA_1" src="https://github.com/user-attachments/assets/a2f80d85-7d53-4c2c-bd01-cc889b242773" />
 
 Код подключения sentry_sdk:
-`
+
+```
 import sentry_sdk
 import logging
 from sentry_sdk.integrations.logging import LoggingIntegration
@@ -54,4 +59,4 @@ sentry_sdk.init(
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-`
+```
