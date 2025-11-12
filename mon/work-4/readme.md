@@ -10,7 +10,7 @@
 
 Скриншот Stack trace:
 
-<img width="1280" height="732" alt="t2_1" src="https://github.com/user-attachments/assets/7c886ff4-ca9f-4ea7-91a4-a7954fa3c190" />
+<img width="1280" height="732" alt="t2_1" src="https://github.com/user-attachments/assets/7497d591-1d4d-4c82-b3c0-536bf350c65e" />
 
 Скриншот списка событий проекта после нажатия Resolved:
 
