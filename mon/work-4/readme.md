@@ -57,3 +57,7 @@ sentry_sdk.init(
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 ```
+
+Скриншот результата отработки скраббера:
+
+<img width="1280" height="735" alt="tA_2" src="https://github.com/user-attachments/assets/a45d57cf-af40-422d-9de8-bb89de0a1633" />
