@@ -11,7 +11,7 @@
 Скриншот Stack trace:
 
 <img width="1280" height="732" alt="t2_1" src="https://github.com/user-attachments/assets/7497d591-1d4d-4c82-b3c0-536bf350c65e" />
-
+<br><br>
 Скриншот списка событий проекта после нажатия Resolved:
 
 <img width="1280" height="735" alt="t2_2" src="https://github.com/user-attachments/assets/c8a04998-fdc3-42f0-b47c-d2f243a8cee0" />
@@ -29,7 +29,7 @@
 Скриншот меню issues вашего проекта:
 
 <img width="1280" height="735" alt="tA_1" src="https://github.com/user-attachments/assets/a2f80d85-7d53-4c2c-bd01-cc889b242773" />
-
+<br><br>
 Код подключения sentry_sdk:
 
 ```
