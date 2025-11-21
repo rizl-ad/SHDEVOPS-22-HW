@@ -116,9 +116,11 @@ Kong Gateway и Tyk Gateway — лучшие выборы для крупных 
 
 Изменил вывод токена и имени файла - теперь вывод с переносом строки, чтобы в терминале вывод не сливался с приглашением командной строки
 
-[nginx.conf]()
+[nginx.conf](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/micsv/work-2/task3/gateway/nginx.conf)
 
-[Итоговый проект]()
+[Итоговый проект](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/micsv/work-2/task3)
 
 Скрин выполнения команд:
+
+<img width="790" height="138" alt="t3_1" src="https://github.com/user-attachments/assets/83b99696-bcae-41ea-a6c8-57575be93d19" />
 
