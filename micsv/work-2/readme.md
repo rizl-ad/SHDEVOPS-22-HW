@@ -122,5 +122,5 @@ Kong Gateway и Tyk Gateway — лучшие выборы для крупных 
 
 Скрин выполнения команд:
 
-<img width="790" height="138" alt="t3_1" src="https://github.com/user-attachments/assets/83b99696-bcae-41ea-a6c8-57575be93d19" />
+<img width="790" height="138" alt="t3_1" src="https://github.com/user-attachments/assets/ebaba085-72f7-4a86-b6d0-ab04bcee7df8" />
 
