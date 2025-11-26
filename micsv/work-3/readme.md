@@ -114,7 +114,9 @@
 
 ## Задача 5: Мониторинг *
 
-[Проект docker compose]()
+[Проект docker compose](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/micsv/work-3/task5)
 
 Скрин результата:
+
+<img width="904" height="561" alt="t5_1" src="https://github.com/user-attachments/assets/b3246dca-c3ec-420b-8679-f68ec390be42" />
 
