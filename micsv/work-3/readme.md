@@ -106,11 +106,10 @@
 
 ## Задача 4: Логи *
 
-[Проект docker compose]()
+[Проект docker compose](https://github.com/rizl-ad/SHDEVOPS-22-HW/tree/main/micsv/work-3/task4)
 
-Скрин результата:
-
-
+Скрин результата:   
+<img width="903" height="563" alt="t3_1" src="https://github.com/user-attachments/assets/43ab3de6-2a5a-46d0-b57e-def28139553d" />
 
 ## Задача 5: Мониторинг *
 
