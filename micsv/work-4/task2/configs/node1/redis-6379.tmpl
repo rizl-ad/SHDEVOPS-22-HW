@@ -1,0 +1,16 @@
+# Server configuration
+port 6379
+cluster-enabled yes
+cluster-node-timeout 5000
+cluster-config-file node1-6379.conf
+daemonize yes
+protected-mode no
+
+# ACL
+user default off
+user ${REDIS_CLUSTER_ADMIN_USERNAME} on >${REDIS_CLUSTER_ADMIN_PASSWORD} allcommands allkeys
+user ${REDIS_CLIENTS_USERNAME} on >${REDIS_CLIENTS_PASSWORD} +@read +@write ~app:*
+
+# Passwords for internal node communication
+masteruser ${REDIS_CLUSTER_ADMIN_USERNAME}
+masterauth ${REDIS_CLUSTER_ADMIN_PASSWORD}

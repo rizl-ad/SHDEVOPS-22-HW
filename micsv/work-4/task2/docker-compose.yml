@@ -1,0 +1,90 @@
+volumes:
+  data:
+
+services:
+  redis-node1:
+    image: redis:8.4.0-alpine3.22
+    env_file:
+      - .env
+    volumes:
+      - ./configs/node1:/conf
+      - data:/data
+    expose:
+      - 6379
+      - 6380
+    command: >
+      sh -c '
+        apk add gettext
+        envsubst < /conf/redis-6379.tmpl | redis-server -
+        envsubst < /conf/redis-6380.tmpl | redis-server -
+      '
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -p 6379 PING && redis-cli -p 6380 PING"]
+      interval: 1s
+      timeout: 5s
+      retries: 20
+
+  redis-node2:
+    image: redis:8.4.0-alpine3.22
+    env_file:
+      - .env
+    volumes:
+      - ./configs/node2:/conf
+      - data:/data
+    expose:
+      - 6379
+      - 6380
+    command: >
+      sh -c '
+        apk add gettext
+        envsubst < /conf/redis-6379.tmpl | redis-server -
+        envsubst < /conf/redis-6380.tmpl | redis-server -
+      '
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -p 6379 PING && redis-cli -p 6380 PING"]
+      interval: 1s
+      timeout: 5s
+      retries: 20
+
+  redis-node3:
+    image: redis:8.4.0-alpine3.22
+    env_file:
+      - .env
+    volumes:
+      - ./configs/node3:/conf
+      - data:/data
+    expose:
+      - 6379
+      - 6380
+    command: >
+      sh -c '
+        apk add gettext
+        envsubst < /conf/redis-6379.tmpl | redis-server -
+        envsubst < /conf/redis-6380.tmpl | redis-server -
+      '
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -p 6379 PING && redis-cli -p 6380 PING"]
+      interval: 1s
+      timeout: 5s
+      retries: 20
+
+  cluster-init:
+    image: redis:8.4.0-alpine3.22
+    environment:
+      - REDIS_CLUSTER_ADMIN_USERNAME=${REDIS_CLUSTER_ADMIN_USERNAME}
+      - REDIS_CLUSTER_ADMIN_PASSWORD=${REDIS_CLUSTER_ADMIN_PASSWORD}
+    depends_on:
+      redis-node1:
+        condition: service_healthy
+      redis-node2:
+        condition: service_healthy
+      redis-node3:
+        condition: service_healthy
+    command: >
+      sh -c '
+        redis-cli -u redis://${REDIS_CLUSTER_ADMIN_USERNAME}:${REDIS_CLUSTER_ADMIN_PASSWORD}@redis-node1:6379 --cluster create \
+        redis-node1:6379 redis-node2:6379 redis-node3:6379 \
+        redis-node1:6380 redis-node2:6380 redis-node3:6380 \
+        --cluster-replicas 1 \
+        --cluster-yes
+      '
