@@ -44,8 +44,8 @@
 
 ## Задача 2: Распределённый кеш
 
-[Docker compose проект.]()
+[Docker compose проект.](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/micsv/work-4/task2/docker-compose.yml)
 
 Скрин полученной схемы репликации:
 
-
+<img width="721" height="547" alt="t2_1" src="https://github.com/user-attachments/assets/9d364f41-5c70-49dc-be13-b77d6e5f5679" />
