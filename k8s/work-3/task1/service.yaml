@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: work3-t1-svc
+spec:
+  selector:
+    env: test
+    app: web
+  ports:
+    - name: nginx-http
+      port: 80
+    - name: multitool-http
+      port: 8080
+    - name: multitool-https
+      port: 8443

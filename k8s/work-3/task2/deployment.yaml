@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work3-t2-deployment
+  labels:
+    env: test
+    app: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      env: test
+      app: nginx
+  template:
+    metadata:
+      labels:
+        env: test
+        app: nginx
+    spec:
+      containers:
+        - image: nginx
+          name: nginx
+      initContainers:
+        - image: busybox
+          name: init-svc
+          command:
+            - sh
+            - -c
+            - |
+              until nslookup work3-t2-svc.default.svc.cluster.local > /dev/null 2>&1; do
+                sleep 5
+              done 
