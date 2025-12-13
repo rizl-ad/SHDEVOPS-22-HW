@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: work4-t2-svc-frontend
+spec:
+  selector:
+    env: test
+    app: work4-t2-nginx
+  ports:
+    - name: nginx-http
+      port: 80

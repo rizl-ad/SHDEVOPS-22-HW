@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work4-t2-deployment-frontend
+  labels:
+    env: test
+    app: work4-t2-nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      env: test
+      app: work4-t2-nginx
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work4-t2-nginx
+    spec:
+      containers:
+        - image: nginx
+          name: nginx
