@@ -7,7 +7,7 @@
 Скриншот описания пода с контейнерами:   
 <img width="666" height="767" alt="t1_1" src="https://github.com/user-attachments/assets/6ad3ce3b-8c05-4106-9274-d0f0e9f46060" />
 
-Скриншот команды чтения файла и его содержимого:   
+Скриншот команды чтения файла из контейнера multitool и его содержимого:   
 <img width="549" height="123" alt="t1_2" src="https://github.com/user-attachments/assets/46433bf0-e93b-480e-825d-941c6531d7cc" />
 
 ## Задание 2. PV, PVC
@@ -15,9 +15,9 @@
 [YAML-конфигурация](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/k8s/work-5/task2/deployment-pv-pvc.yaml)
 
 > [!NOTE]
-> В конфигурации объявлен `storageClassName: work5-t2-scn`, но сам класс хранения не описан.
+> В конфигурации объявлен `storageClassName: work5-t2-scn`, но сам класс хранилища не описан.
 
-Скриншот создания Deployment, PV, PVC. Содержимое файла:   
+Скриншот создания Deployment, PV, PVC. Чтение файла из контейнера multitool:   
 <img width="622" height="240" alt="t2_1" src="https://github.com/user-attachments/assets/fa91c3c0-e36a-4957-8408-919eb46a8f4a" />
 
 Скриншот удаления Deployment, PVC. Состояние файла:   
@@ -35,3 +35,7 @@
 Поскольку ресурс уже существует, в концепции K8s считается что администратор сам управляет жизненным циклом ресурса, поэтому внешний плагин для ресурса не предоставляется и K8s не может удалить PV и его данные.
 
 ## Задание 3. StorageClass
+
+[YAML-конфигурация]()
+
+Скриншот создания Deployment, PV, PVC. Чтение файла из контейнера multitool:

@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work5-t3-deployment
+  labels:
+    env: test
+    app: work5-t3-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      env: test
+      app: work5-t3-app
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work5-t3-app
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool
+          volumeMounts:
+            - name: work5-t3-data
+              mountPath: /mtdata
+        - image: busybox
+          name: busybox
+          volumeMounts:
+            - name: work5-t3-data
+              mountPath: /bbdata
+          command:
+            - sh
+            - -c
+            - |
+              while true; do
+                date >> /bbdata/chrono.log
+                sleep 5
+              done
+      volumes:
+        - name: work5-t3-data
+          persistentVolumeClaim:
+            claimName: work5-t3-pvc
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: work5-t3-pvc
+spec:
+  storageClassName: microk8s-hostpath   # builtin microk8s hostpath-storage addon storage class
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
