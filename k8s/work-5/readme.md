@@ -36,6 +36,7 @@
 
 ## Задание 3. StorageClass
 
-[YAML-конфигурация]()
+[YAML-конфигурация](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/k8s/work-5/task3/deployment-storage-class.yaml)
 
-Скриншот создания Deployment, PV, PVC. Чтение файла из контейнера multitool:
+Скриншот создания Deployment, PV, PVC. Чтение файла из контейнера multitool:   
+<img width="711" height="369" alt="t3_1" src="https://github.com/user-attachments/assets/ff6a6178-f98c-4581-910a-971071acf6e3" />
