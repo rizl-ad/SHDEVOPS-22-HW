@@ -1,0 +1,78 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work5-t2-deployment
+  labels:
+    env: test
+    app: work5-t2-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      env: test
+      app: work5-t2-app
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work5-t2-app
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool
+          volumeMounts:
+            - name: work5-t2-data
+              mountPath: /mtdata
+        - image: busybox
+          name: busybox
+          volumeMounts:
+            - name: work5-t2-data
+              mountPath: /bbdata
+          command:
+            - sh
+            - -c
+            - |
+              while true; do
+                date >> /bbdata/chrono.log
+                sleep 5
+              done
+      volumes:
+        - name: work5-t2-data
+          persistentVolumeClaim:
+            claimName: work5-t2-pvc
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: work5-t2-pv
+spec:
+  capacity:
+    storage: 1Gi
+  volumeMode: Filesystem                # указывает, что volume будет отформатирован в файловую систему
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Delete
+  storageClassName: work5-t2-scn
+  local:
+    path: /mnt/pv/work5-t2
+  nodeAffinity:                         # раздел определяет правила, на каких нодах доступен PV
+    required:                           # если подходящей ноды нет, Pod, использующий PV, не запустится
+      nodeSelectorTerms:                # список условий, для выполнения правила достаточно соответствия хотя бы одному из них
+      - matchExpressions:               # выражения для фильтрации узлов
+        - key: kubernetes.io/hostname   # стандартная метка Kubernetes, значение равно hostname ноды
+          operator: In                  # указывает, что значение метки должно входить в список, приведенный ниже
+          values:
+          - srv-ub2404-02
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: work5-t2-pvc
+spec:
+  storageClassName: work5-t2-scn        # K8s будет искать созданный вручную PV с storageClassName равным work5-t2-sCN
+  volumeMode: Filesystem                # K8s будет искать доступный PV с volumeMode равным Filesystem
+  accessModes:
+    - ReadWriteOnce                     # # K8s будет искать доступный PV с accessModes равным ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi                      # K8s будет искать доступный PV объемом не менее 1ГБ

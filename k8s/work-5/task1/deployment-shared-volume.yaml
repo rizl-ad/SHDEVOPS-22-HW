@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work5-t1-deployment
+  labels:
+    env: test
+    app: work5-t1-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      env: test
+      app: work5-t1-app
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work5-t1-app
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool
+          volumeMounts:
+            - name: work5-t1-data
+              mountPath: /mtdata
+        - image: busybox
+          name: busybox
+          volumeMounts:
+            - name: work5-t1-data
+              mountPath: /bbdata
+          command:
+            - sh
+            - -c
+            - |
+              while true; do
+                date >> /bbdata/chrono.log
+                sleep 5
+              done
+      volumes:
+        - name: work5-t1-data
+          hostPath:
+            path: /var/data
