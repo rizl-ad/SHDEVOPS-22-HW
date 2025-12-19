@@ -1,0 +1,8 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: work6-t3-role
+rules:
+  - apiGroups: [""]   # Основная группа API (также называемая группой устаревших приложений). Значение по умолчанию, если группа не указана.
+    resources: ["pods", "pods/log"]
+    verbs: ["get", "watch", "list"]

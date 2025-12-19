@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: work6-t2-configmap
+data:
+  index.html: |
+    <html>
+    <head>
+        <title>K8s work6 task2 index page</title>
+    </head>
+    <body>
+        <h1>K8s work6 task2 index page header</h1>
+    </body>
+    </html>
+  default.conf: |
+    server {
+        listen       443 ssl;
+        server_name  localhost;
+        ssl_certificate     /etc/nginx/certs/tls.crt;
+        ssl_certificate_key /etc/nginx/certs/tls.key;
+        location / {
+            root   /usr/share/nginx/html;
+            index  index.html index.htm;
+        }
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   /usr/share/nginx/html;
+        }
+    }

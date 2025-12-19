@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work6-t1-deployment
+  labels:
+    env: test
+    app: work6-t1-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      env: test
+      app: work6-t1-app
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work6-t1-app
+    spec:
+      containers:
+        - image: nginx
+          name: nginx
+          volumeMounts:
+            - name: work6-t1-vol
+              mountPath: /usr/share/nginx/html
+        - image: wbitt/network-multitool
+          name: multitool
+          env:
+            - name: HTTP_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: work6-t1-configmap
+                  key: HTTP_PORT
+            - name: HTTPS_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: work6-t1-configmap
+                  key: HTTPS_PORT
+      volumes:
+        - name: work6-t1-vol
+          configMap:
+            name: work6-t1-configmap
+            items:
+              - key: index.html
+                path: index.html

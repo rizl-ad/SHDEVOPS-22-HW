@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work6-t2-deployment
+  labels:
+    env: test
+    app: work6-t2-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      env: test
+      app: work6-t2-app
+  template:
+    metadata:
+      labels:
+        env: test
+        app: work6-t2-app
+    spec:
+      containers:
+        - image: nginx
+          name: nginx
+          volumeMounts:
+            - name: work6-t2-vol-html-index
+              mountPath: /usr/share/nginx/html
+            - name: work6-t2-vol-default-conf
+              mountPath: /etc/nginx/conf.d
+            - name: work6-t2-vol-secret
+              mountPath: /etc/nginx/certs
+      volumes:
+        - name: work6-t2-vol-html-index
+          configMap:
+            name: work6-t2-configmap
+            items:
+              - key: index.html
+                path: index.html
+        - name: work6-t2-vol-default-conf
+          configMap:
+            name: work6-t2-configmap
+            items:
+              - key: default.conf
+                path: default.conf
+        - name: work6-t2-vol-secret
+          secret:
+            secretName: work6-t2-secret

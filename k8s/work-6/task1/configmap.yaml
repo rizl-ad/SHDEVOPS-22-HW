@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: work6-t1-configmap
+data:
+  HTTP_PORT: "8080"
+  HTTPS_PORT: "8443"
+  index.html: |
+    <html>
+    <head>
+        <title>K8s work6 task1 index page</title>
+    </head>
+    <body>
+        <h1>K8s work6 task1 index page header</h1>
+    </body>
+    </html>
