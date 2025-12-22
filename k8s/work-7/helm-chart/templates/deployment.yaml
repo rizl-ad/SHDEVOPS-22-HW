@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-{{ .Values.deployment.name }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ .Release.Name }}-{{ .Values.deployment.labels.app }}
+spec:
+  replicas: {{ .Values.deployment.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-{{ .Values.deployment.labels.app }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}-{{ .Values.deployment.labels.app }}
+    spec:
+      containers:
+        - image: {{ .Values.deployment.containerImage }}:{{ .Values.deployment.containerImageTag }}
+          name: {{ .Values.deployment.containerName }}
+          volumeMounts:
+            - name: {{ (index .Values.deployment.volume 0).name }}
+              mountPath: {{ (index .Values.deployment.volume 0).mountPath }}
+            - name: {{ (index .Values.deployment.volume 1).name }}
+              mountPath: {{ (index .Values.deployment.volume 1).mountPath }}
+            - name: {{ (index .Values.deployment.volume 2).name }}
+              mountPath: {{ (index .Values.deployment.volume 2).mountPath }}
+      volumes:
+        - name: {{ (index .Values.deployment.volume 0).name }}
+          configMap:
+            name: {{ .Release.Name }}-{{ .Values.configMap.name }}
+            items:
+              - key: {{ (index .Values.configMap.key 0).name }}
+                path: {{ (index .Values.configMap.key 0).name }}
+        - name: {{ (index .Values.deployment.volume 1).name }}
+          configMap:
+            name: {{ .Release.Name }}-{{ .Values.configMap.name }}
+            items:
+              - key: {{ (index .Values.configMap.key 1).name }}
+                path: {{ (index .Values.configMap.key 1).name }}
+        - name: {{ (index .Values.deployment.volume 2).name }}
+          secret:
+            secretName: {{ .Release.Name }}-{{ .Values.secret.name }}

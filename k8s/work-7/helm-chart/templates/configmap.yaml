@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Values.configMap.name }}
+  namespace: {{ .Release.Namespace }}
+data:
+  {{ (index .Values.configMap.key 0).name }}: |
+{{ tpl (index .Values.configMap.key 0).value . | indent 4 }}
+  {{ (index .Values.configMap.key 1).name }}: | 
+{{ tpl (index .Values.configMap.key 1).value . | indent 4 }}
