@@ -29,6 +29,10 @@
 
 Инициализация кластера выполнена через kubeadm.
 
+Конфигурации:
+  - [HAproxy](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/k8s/work-9/configs/haproxy.cfg)
+  - [Keepalived](https://github.com/rizl-ad/SHDEVOPS-22-HW/blob/main/k8s/work-9/configs/keepalived.conf)
+
 Стек:
   - Ubuntu 24.04 LTS (minimized);
   - Kubernetes 1.35;
