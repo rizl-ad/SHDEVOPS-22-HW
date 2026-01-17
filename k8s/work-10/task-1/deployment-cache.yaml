@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work10-deployment-cache
+  namespace: app
+  labels:
+    app: cache
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cache
+  template:
+    metadata:
+      labels:
+        app: cache
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool-cache
+          # env:
+          #   - name: HTTP_PORT
+          #     value: "8080"
+          #   - name: HTTPS_PORT
+          #     value: "8443"

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work10-deployment-frontend
+  namespace: app
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - image: wbitt/network-multitool
+          name: multitool-frontend
+          # env:
+          #   - name: HTTP_PORT
+          #     value: "8080"
+          #   - name: HTTPS_PORT
+          #     value: "8443"
