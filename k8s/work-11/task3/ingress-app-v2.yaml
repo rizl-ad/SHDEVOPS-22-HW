@@ -1,0 +1,32 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: work11-ingress-app-v2
+  annotations:
+    # Включаем механизм canary
+    nginx.ingress.kubernetes.io/canary: "true"
+    
+    # Вариант 1: Распределение по весу (в процентах)
+    # 10% трафика уйдет на версию canary
+    nginx.ingress.kubernetes.io/canary-weight: "10"
+    
+    # Вариант 2: По заголовку (удобно для тестов)
+    # Трафик пойдет на canary, если передан заголовок 'x-canary: always'
+    # nginx.ingress.kubernetes.io/canary-by-header: "x-canary"
+    
+    # Вариант 3: По Cookie
+    # Трафик пойдет на canary, если кука 'canary_user' имеет значение 'always'
+    # nginx.ingress.kubernetes.io/canary-by-cookie: "canary_user"
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: localhost
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: work11-t3-svc-app-v2
+            port:
+              number: 80

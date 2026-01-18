@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: work11-t3-deployment-app-v1
+  labels:
+    app: work11-t3-app
+spec:
+  # replicas: 3
+  selector:
+    matchLabels:
+      app: work11-t3-app-v1
+  template:
+    metadata:
+      labels:
+        app: work11-t3-app-v1
+    spec:
+      containers:
+        - image: nginx
+          name: nginx
+          volumeMounts:
+            - name: work11-t3-vol
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: work11-t3-vol
+          configMap:
+            name: work11-t3-configmap
+            items:
+              - key: index-v1.html
+                path: index.html
