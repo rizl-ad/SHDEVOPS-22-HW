@@ -7,9 +7,11 @@
 Ноды, поды, сервисы:   
 <img width="505" height="352" alt="1" src="https://github.com/user-attachments/assets/651f22f2-1b7b-4dab-be93-61e7850a610b" />
 
-Отсутствие доступов после применения запрещающей политики:   
+Наличие доступов до применения запрещающей политики:   
 <img width="649" height="112" alt="2" src="https://github.com/user-attachments/assets/16447be0-c3d2-4363-a70c-e8bc8b3b2345" />
 
+Отсутствие доступов после применения запрещающей политики:   
+<img width="478" height="165" alt="5" src="https://github.com/user-attachments/assets/c1f2de91-aa7b-44c5-9894-87885848be42" />
 
 Наличие только доступов frontend -> backend -> cache после применения разрешающей политики:   
 <img width="644" height="147" alt="3" src="https://github.com/user-attachments/assets/e94bc7fb-0e23-4be4-8bb3-9f0d26466387" />
