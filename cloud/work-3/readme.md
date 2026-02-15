@@ -22,3 +22,6 @@
 <img width="492" height="415" alt="t1_6" src="https://github.com/user-attachments/assets/3e317044-3fc5-4655-ae6c-3efb17ff9dee" /><br>
 <img width="282" height="106" alt="t1_4" src="https://github.com/user-attachments/assets/437f25ec-e79f-428c-8c10-8153a384c5cb" /><br>
 <img width="283" height="106" alt="t1_5" src="https://github.com/user-attachments/assets/5a8bfe18-c5ee-4998-8957-05b56c3cc241" /><br>
+
+upd: выпущен сертификат от Let's Encrypt.   
+<img width="274" height="100" alt="t1_7" src="https://github.com/user-attachments/assets/f93e844f-23d4-4580-a6a7-29fc3f241260" />
