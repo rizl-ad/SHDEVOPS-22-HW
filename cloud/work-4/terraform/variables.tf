@@ -150,3 +150,13 @@ variable "phpmyadmin_db_user_index" {
   type = number
   default = 0
 }
+
+variable "phpmyadmin_name" {
+  type = string
+  default = "phpmyadmin"
+}
+
+variable "phpmyadmin_port" {
+  type = number
+  default = 80
+}

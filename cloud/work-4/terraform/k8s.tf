@@ -70,30 +70,30 @@ module "k8s_cluster_nodes" {
 module "deployment" {
   source = "./k8s/deployment"
   metadata = {
-    name = "phpmyadmin"
+    name = var.phpmyadmin_name
     labels = { 
-      app = "phpmyadmin"
+      app = var.phpmyadmin_name
     }
   }
   spec = {
     replicas = 1
     selector = { 
       match_labels = { 
-        app = "phpmyadmin" 
+        app = var.phpmyadmin_name 
       }
     }
     template = {
       metadata = { 
         labels = { 
-          app = "phpmyadmin" 
+          app = var.phpmyadmin_name 
         }
       }
       spec = {
         container = [{
-          image = "phpmyadmin:latest"
-          name  = "phpmyadmin"
+          image = "${var.phpmyadmin_name}:latest"
+          name  = var.phpmyadmin_name
           port = [{
-            container_port = 80
+            container_port = var.phpmyadmin_port
           }]
           env = [{
             name  = "PMA_HOST"
@@ -120,15 +120,15 @@ module "deployment" {
 module "service" {
   source = "./k8s/service"
   metadata = {
-    name = "phpmyadmin-service"
+    name = "${var.phpmyadmin_name}-service"
   }
   spec = {
     selector = {
-      app = module.deployment.metadata[0].labels.app
+      app = var.phpmyadmin_name
     }
     port = [{
-      port = 80
-      target_port = 80
+      port = var.phpmyadmin_port
+      target_port = var.phpmyadmin_port
     }]
     type = "LoadBalancer"
   }
