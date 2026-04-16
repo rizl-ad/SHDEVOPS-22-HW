@@ -20,15 +20,16 @@
 
 
 module "test-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=4d05fab828b1fcae16556a4d167134efca2fccf2"
   env_name       = "develop" 
   network_id     = module.vpc.network_id
   subnet_zones   = [module.vpc.subnets[0].zone]
   subnet_ids     = [module.vpc.subnets[0].id]
+  security_group_ids = module.vpc.security_group_ids
   instance_name  = "webs"
   instance_count = 2
   image_family   = "ubuntu-2004-lts"
-  public_ip      = true
+  public_ip      = false
 
   labels = { 
     project = "marketing"
@@ -42,15 +43,16 @@ module "test-vm" {
 }
 
 module "example-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=4d05fab828b1fcae16556a4d167134efca2fccf2"
   env_name       = "stage"
   network_id     = module.vpc.network_id
   subnet_zones   = [module.vpc.subnets[1].zone]
   subnet_ids     = [module.vpc.subnets[1].id]
+  security_group_ids = module.vpc.security_group_ids
   instance_name  = "web-stage"
   instance_count = 1
   image_family   = "ubuntu-2004-lts"
-  public_ip      = true
+  public_ip      = false
 
   labels = { 
     project = "analytics"
